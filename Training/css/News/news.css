@@ -1,0 +1,27 @@
+﻿body {
+}
+
+#News_En {
+    font-size:0.01em;
+}
+
+#News_inner {
+    position: absolute;
+    left: 3%;
+    right:3%;
+   
+}
+
+.the_news {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.hr_inner {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.btn {
+    padding: 0;
+}

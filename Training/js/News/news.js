@@ -18,7 +18,7 @@
             detailP.className = 'view_details';
             var detailA = document.createElement('a');
             detailA.className = 'btn';
-            detailA.href = 'thinkgeo.com/press-releases' + data.href;
+            detailA.href = 'http://thinkgeo.com/press-releases' + data.href;
             detailA.innerHTML = '更多信息';
             detailP.appendChild(detailA);
             newsDiv.appendChild(detailP);

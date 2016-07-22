@@ -60,7 +60,12 @@
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Career\career.css" />
     <Content Include="css\Index\index.css" />
+    <Content Include="img\Career\thinkgeo_bottom_logo.png" />
+    <Content Include="img\Career\thinkgeo_right_logo.png" />
+    <Content Include="img\Career\thinkgeo_top_logo.png" />
+    <Content Include="img\Career\top_thinkgeo_logo.png" />
     <Content Include="img\Index\head2.jpg" />
     <Content Include="img\Index\head1.jpg" />
     <Content Include="img\Index\head3.jpg" />
@@ -97,11 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\About-us\" />
-    <Folder Include="css\Career\" />
     <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
     <Folder Include="img\About-us\" />
-    <Folder Include="img\Career\" />
     <Folder Include="img\News\" />
     <Folder Include="img\Products_services\" />
     <Folder Include="js\About-us\" />

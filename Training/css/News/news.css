@@ -1,6 +1,11 @@
 ﻿body {
 }
 
+h2 {
+      font-size: 16px;
+      font-weight:bold;
+}
+
 #News_En {
     font-size:14px;
 }

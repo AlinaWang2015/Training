@@ -22,14 +22,14 @@
             detailA.innerHTML = '更多信息';
             detailP.appendChild(detailA);
             newsDiv.appendChild(detailP);
-
-            var hr = document.createElement('hr');
-            hr.className = 'hr_inner';
-            newsDiv.appendChild(hr);
-
+            
             var clearDiv = document.createElement('div');
             clearDiv.className = 'row clearfix';
             clearDiv.appendChild(newsDiv);
+
+            var hr = document.createElement('hr');
+            hr.className = 'hr_inner';
+            clearDiv.appendChild(hr);
 
             var containerDiv = document.getElementById('News_container');
             containerDiv.appendChild(clearDiv);

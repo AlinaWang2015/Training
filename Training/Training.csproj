@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -59,29 +60,32 @@
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\Index\modify.css" />
-    <Content Include="img\Index\argonne.jpg" />
-    <Content Include="img\Index\cloud.jpg" />
-    <Content Include="img\Index\developer.jpg" />
-    <Content Include="img\Index\emergency.jpg" />
-    <Content Include="img\Index\experian.jpg" />
-    <Content Include="img\Index\grape.jpg" />
-    <Content Include="img\Index\honey.jpg" />
-    <Content Include="img\Index\Index_meitu_log2.jpg" />
-    <Content Include="img\Index\job.jpg" />
-    <Content Include="img\Index\log1.jpg" />
-    <Content Include="img\Index\log2.jpg" />
-    <Content Include="img\Index\motorola.jpg" />
-    <Content Include="img\Index\pioneer.jpg" />
-    <Content Include="img\Index\professional.jpg" />
-    <Content Include="img\Index\research.jpg" />
-    <Content Include="img\Index\thinkgeo.jpg" />
+    <Content Include="css\Career\career.css" />
+    <Content Include="css\Index\index.css" />
+    <Content Include="img\Career\thinkgeo_bottom_logo.png" />
+    <Content Include="img\Career\thinkgeo_right_logo.png" />
+    <Content Include="img\Career\thinkgeo_top_logo.png" />
+    <Content Include="img\Career\top_thinkgeo_logo.png" />
+    <Content Include="img\Index\head2.jpg" />
+    <Content Include="img\Index\head1.jpg" />
+    <Content Include="img\Index\head3.jpg" />
+    <Content Include="img\Index\head4.jpg" />
+    <Content Include="img\Index\head5.jpg" />
+    <Content Include="img\Index\head6.jpg" />
+    <Content Include="css\News\news.css" />
+    <Content Include="img\Index\logo.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Index\index.js" />
     <Content Include="js\jquery-1.10.2.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
-    <Content Include="page\index2.html" />
+    <Content Include="js\News\createNews.js" />
+    <Content Include="js\News\news.js" />
+    <Content Include="js\News\news.min.js" />
+    <Content Include="js\News\object.js" />
+    <Content Include="page\about.html" />
     <Content Include="page\career.html" />
+    <Content Include="page\index.html" />
     <Content Include="page\news.html" />
     <Content Include="page\productServices.html" />
     <Content Include="Web.config" />
@@ -99,18 +103,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\About-us\" />
-    <Folder Include="css\Career\" />
-    <Folder Include="css\News\" />
     <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
     <Folder Include="img\About-us\" />
-    <Folder Include="img\Career\" />
     <Folder Include="img\News\" />
     <Folder Include="img\Products_services\" />
     <Folder Include="js\About-us\" />
     <Folder Include="js\Career\" />
-    <Folder Include="js\Index\" />
-    <Folder Include="js\News\" />
     <Folder Include="js\Products_services\" />
   </ItemGroup>
   <PropertyGroup>

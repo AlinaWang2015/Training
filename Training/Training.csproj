@@ -59,13 +59,29 @@
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Index\modify.css" />
+    <Content Include="img\Index\argonne.jpg" />
+    <Content Include="img\Index\cloud.jpg" />
+    <Content Include="img\Index\developer.jpg" />
+    <Content Include="img\Index\emergency.jpg" />
+    <Content Include="img\Index\experian.jpg" />
+    <Content Include="img\Index\grape.jpg" />
+    <Content Include="img\Index\honey.jpg" />
+    <Content Include="img\Index\Index_meitu_log2.jpg" />
+    <Content Include="img\Index\job.jpg" />
+    <Content Include="img\Index\log1.jpg" />
+    <Content Include="img\Index\log2.jpg" />
+    <Content Include="img\Index\motorola.jpg" />
+    <Content Include="img\Index\pioneer.jpg" />
+    <Content Include="img\Index\professional.jpg" />
+    <Content Include="img\Index\research.jpg" />
+    <Content Include="img\Index\thinkgeo.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.10.2.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
-    <Content Include="page\about.html" />
+    <Content Include="page\index2.html" />
     <Content Include="page\career.html" />
-    <Content Include="page\index.html" />
     <Content Include="page\news.html" />
     <Content Include="page\productServices.html" />
     <Content Include="Web.config" />
@@ -84,13 +100,11 @@
   <ItemGroup>
     <Folder Include="css\About-us\" />
     <Folder Include="css\Career\" />
-    <Folder Include="css\Index\" />
     <Folder Include="css\News\" />
     <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
     <Folder Include="img\About-us\" />
     <Folder Include="img\Career\" />
-    <Folder Include="img\Index\" />
     <Folder Include="img\News\" />
     <Folder Include="img\Products_services\" />
     <Folder Include="js\About-us\" />

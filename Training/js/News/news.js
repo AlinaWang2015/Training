@@ -31,7 +31,7 @@
             hr.className = 'hr_inner';
             clearDiv.appendChild(hr);
 
-            var containerDiv = document.getElementById('News_container');
+            var containerDiv = document.getElementById('news_container');
             containerDiv.appendChild(clearDiv);
         }
     }

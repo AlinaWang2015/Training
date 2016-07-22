@@ -60,6 +60,7 @@
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Index\index.css" />
     <Content Include="img\Index\head2.jpg" />
     <Content Include="img\Index\head1.jpg" />
     <Content Include="img\Index\head3.jpg" />
@@ -67,8 +68,10 @@
     <Content Include="img\Index\head5.jpg" />
     <Content Include="img\Index\head6.jpg" />
     <Content Include="css\News\news.css" />
+    <Content Include="img\Index\logo.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Index\index.js" />
     <Content Include="js\jquery-1.10.2.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
     <Content Include="js\News\createNews.js" />
@@ -95,7 +98,6 @@
   <ItemGroup>
     <Folder Include="css\About-us\" />
     <Folder Include="css\Career\" />
-    <Folder Include="css\Index\" />
     <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
     <Folder Include="img\About-us\" />
@@ -104,7 +106,6 @@
     <Folder Include="img\Products_services\" />
     <Folder Include="js\About-us\" />
     <Folder Include="js\Career\" />
-    <Folder Include="js\Index\" />
     <Folder Include="js\Products_services\" />
   </ItemGroup>
   <PropertyGroup>

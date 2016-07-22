@@ -58,11 +58,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\About-us\about-us.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\Career\career.css" />
     <Content Include="css\Index\index.css" />
     <Content Include="css\Index\modify.css" />
+    <Content Include="img\About-us\aaa.jpg" />
+    <Content Include="img\About-us\TechnologyPark.jpg" />
     <Content Include="img\Career\thinkgeo_bottom_logo.png" />
     <Content Include="img\Career\thinkgeo_right_logo.png" />
     <Content Include="img\Career\thinkgeo_top_logo.png" />
@@ -100,6 +103,7 @@
     <Content Include="js\News\news.js" />
     <Content Include="js\News\news.min.js" />
     <Content Include="js\News\object.js" />
+    <Content Include="page\about-us.html" />
     <Content Include="page\career.html" />
     <Content Include="page\index.html" />
     <Content Include="page\index2.html" />
@@ -119,10 +123,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\About-us\" />
     <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
-    <Folder Include="img\About-us\" />
     <Folder Include="img\News\" />
     <Folder Include="img\Products_services\" />
     <Folder Include="js\About-us\" />

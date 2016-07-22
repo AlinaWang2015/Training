@@ -1,6 +1,10 @@
 ﻿body {
 }
 
+#news {
+    min-width:600px;
+}
+
 .news_title {
     font-size: 1.3em;
     font-weight: bold;

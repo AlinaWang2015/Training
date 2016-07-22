@@ -1,15 +1,36 @@
 ﻿window.onload = function () {
+    var $nowIndex = 0;
+    var $nextIndex = 0;
 
-    //#change img by change img's src
+    //# click to change img 
     $("#pages .page").click(function () {
-        var chooseId = $(this).attr("value");
-        $(this).siblings().removeClass("active");
-        $(this).addClass("active");
-        $("#slides img").attr("src", '../img/Index/head' + chooseId + '.jpg');
+        var clickId = $(this).attr("value");
+
+        $(this).addClass("active").siblings().removeClass("active");
+        $("#slides").find("img").eq(clickId).addClass("active").siblings().removeClass("active");
+
     });
 
-    //# use a timer to switch the slide
+    //use a timer to switch the slide
+    var atime = setInterval(function () {
+        if ($("#pages div.active").attr("value") == $("#pages div").last().attr("value")) {
+            $("#pages div").first().click();
+        } else {
+            $("#pages div.active").next().click();
+        }
+    }, 2000);
 
-    //#change img by fadein fadeout
-
+    //# change img by animate
 }
+
+//$(document).ready(function () {
+//    $(window).resize(function () {
+//        var widthNow;
+//        var heightNow;
+       
+//        widthNow = $("#slides img.active").attr("width");
+//        alert(widthNow);
+
+//    });
+
+//});

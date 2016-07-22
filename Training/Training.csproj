@@ -66,6 +66,7 @@
     <Content Include="img\Index\head4.jpg" />
     <Content Include="img\Index\head5.jpg" />
     <Content Include="img\Index\head6.jpg" />
+    <Content Include="css\News\news.css" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.10.2.js" />
@@ -92,7 +93,6 @@
     <Folder Include="css\About-us\" />
     <Folder Include="css\Career\" />
     <Folder Include="css\Index\" />
-    <Folder Include="css\News\" />
     <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
     <Folder Include="img\About-us\" />

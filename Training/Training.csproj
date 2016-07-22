@@ -63,6 +63,9 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.10.2.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\News\createNews.js" />
+    <Content Include="js\News\news.js" />
+    <Content Include="js\News\object.js" />
     <Content Include="page\about.html" />
     <Content Include="page\career.html" />
     <Content Include="page\index.html" />
@@ -96,7 +99,6 @@
     <Folder Include="js\About-us\" />
     <Folder Include="js\Career\" />
     <Folder Include="js\Index\" />
-    <Folder Include="js\News\" />
     <Folder Include="js\Products_services\" />
   </ItemGroup>
   <PropertyGroup>

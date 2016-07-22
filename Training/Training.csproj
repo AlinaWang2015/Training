@@ -84,6 +84,8 @@
     <Content Include="js\News\object.js" />
     <Content Include="page\about.html" />
     <Content Include="page\career.html" />
+    <Content Include="page\footer.html" />
+    <Content Include="page\header.html" />
     <Content Include="page\index.html" />
     <Content Include="page\news.html" />
     <Content Include="page\productServices.html" />

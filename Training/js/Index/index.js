@@ -21,5 +21,16 @@
     }, 2000);
 
     //# change img by animate
-
 }
+
+//$(document).ready(function () {
+//    $(window).resize(function () {
+//        var widthNow;
+//        var heightNow;
+       
+//        widthNow = $("#slides img.active").attr("width");
+//        alert(widthNow);
+
+//    });
+
+//});

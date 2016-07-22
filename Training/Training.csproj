@@ -81,6 +81,7 @@
     <Content Include="js\jquery-1.10.2.min.js" />
     <Content Include="js\News\createNews.js" />
     <Content Include="js\News\news.js" />
+    <Content Include="js\News\news.min.js" />
     <Content Include="js\News\object.js" />
     <Content Include="page\about.html" />
     <Content Include="page\career.html" />

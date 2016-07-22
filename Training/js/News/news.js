@@ -6,7 +6,7 @@
 
             var titleH2 = document.createElement('h2');
             titleH2.className = 'news_title';
-            titleH2.innerHTML = data.date + ' ---- ' + data.title;
+            titleH2.innerHTML = data.date + ' ——— ' + data.title;
             newsDiv.appendChild(titleH2);
             
             var captionP = document.createElement('p');

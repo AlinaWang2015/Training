@@ -1,18 +1,25 @@
 ﻿body {
 }
 
-h2 {
-      font-size: 16px;
-      font-weight:bold;
+.news_title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#News_container {
+    padding: 1.2em 0em 0.6em 0em;
 }
 
 #News_En {
-    font-size:14px;
+    font-size: 0.6em;
 }
 
 .news_item {
-    padding-left: 5em;
-    padding-right: 5em;
+      padding: 1em 5em;
+}
+
+.news_caption {
+    padding:1em 0em;
 }
 
 .hr_inner {
@@ -22,4 +29,10 @@ h2 {
 
 .btn {
     padding: 0;
+    font-weight: bold;
+}
+
+.row {
+    margin-left:0;
+    margin-right:0;
 }

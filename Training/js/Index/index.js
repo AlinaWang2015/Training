@@ -23,14 +23,13 @@
     //# change img by animate
 }
 
-//$(document).ready(function () {
-//    $(window).resize(function () {
-//        var widthNow;
-//        var heightNow;
+$(document).ready(function () {
+    $(window).resize(function () {
+        var widthNow;
+        var heightNow;
        
-//        widthNow = $("#slides img.active").attr("width");
-//        alert(widthNow);
+        widthNow = $("#slides img.active").attr("width");
 
-//    });
+    });
 
-//});
+});

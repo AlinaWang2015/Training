@@ -2,7 +2,7 @@
 }
 
 #news {
-    min-width:600px;
+    min-width:300px;
 }
 
 .news_title {
@@ -16,10 +16,6 @@
 
 #News_En {
     font-size: 0.6em;
-}
-
-.news_item {
-      padding: 1em 5em;
 }
 
 .news_caption {
@@ -39,4 +35,21 @@
 .row {
     margin-left:0;
     margin-right:0;
+}
+
+hr{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+@media (max-width: 992px ) {
+    .news_item {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width:992px) {
+    .news_item {
+        padding: 0em 5em;
+    }
 }

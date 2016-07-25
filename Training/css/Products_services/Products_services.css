@@ -1,11 +1,12 @@
 ﻿img {max-width:100%;height:auto; } 
 .row {
+  border:0 solid gray;
   margin-right: 0;
   margin-left: 0;
 }
 #learnmore {font-weight:bold;background-color:#2B669A;color:white;width:8em;height:3em;
         } 
-        @media (min-width: 0) {
+@media (min-width: 0) {
   .container {
     max-width: 99999px;
   }

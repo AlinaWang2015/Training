@@ -25,7 +25,7 @@
 #pages {
     text-align: center; /* pages horizontal center*/
     position: relative;
-    top: 25em;
+    top:500px;
 }
 
     #pages .page {

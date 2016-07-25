@@ -102,7 +102,6 @@
     <Content Include="js\News\object.js" />
     <Content Include="page\career.html" />
     <Content Include="page\index.html" />
-    <Content Include="page\index2.html" />
     <Content Include="page\news.html" />
     <Content Include="page\productServices.html" />
     <Content Include="Web.config" />

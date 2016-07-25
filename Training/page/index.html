@@ -14,21 +14,12 @@
     <script src="../js/bootstrap.js"></script>
 
     <style>
-        /*foot*/
+        .row {
+            border: none;
+        }
+
         .foot a {
             color: white;
-        }
-
-        @media all and (min-width:640px) and (max-width:960px) {
-            footer {
-                display: none;
-            }
-        }
-
-        @media all and (max-width:1170px) {
-            #headList {
-                display: none;
-            }
         }
     </style>
 
@@ -50,7 +41,7 @@
                     <li>
                         <a href=""><img alt="ThinkGeo" src="../img/Career/thinkgeo_top_logo.png"></a>
                     </li>
-                    <li><a href="#">关于我们</a></li>
+                    <li><a href="about-us.html">关于我们</a></li>
                     <li><a href="#">业务方向</a></li>
                     <li><a href="#">企业动态</a></li>
                     <li class="nav-current"><a href="#">工作机会<span class="sr-only">(current)</span></a></li>
@@ -110,8 +101,8 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row" style="float: left">
+    <div id="mainDiv" class="container" style="margin-bottom:2em">
+        <div class="row" style="float: left;border:2px solid #ddd;padding-top:0.5em">
             <div class="col-lg-3">
                 <img src="../img/Index/developer.jpg" />
             </div>
@@ -126,7 +117,7 @@
             </div>
         </div>
 
-        <div class="col-lg-12" style="float: left; margin-top: 3em; background-color: gray;">
+        <div class="col-lg-12" style="float: left; margin-top: 3em; background-color:#eee;">
             <div class="col-lg-1">
                 <h1>{</h1>
             </div>
@@ -138,7 +129,7 @@
             </div>
         </div>
 
-        <div style="float: left; margin-top: 3em; background-color: gray;">
+        <div style="float: left; margin-top: 3em; background-color:#e4e3ca;padding-top:0.3em">
             <div class="col-lg-4">
                 <img src="../img/Index/grape.jpg" />
             </div>

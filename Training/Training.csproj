@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\About-us\about-us.css" />
-    <Content Include="css\Public\foot.css" />
     <Content Include="css\Public\head.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />

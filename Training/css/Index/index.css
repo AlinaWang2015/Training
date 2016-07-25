@@ -24,7 +24,6 @@
 
 #pages {
     text-align: center; /* pages horizontal center*/
-    z-index: 2;
 }
 
     #pages .page {

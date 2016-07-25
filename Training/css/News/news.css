@@ -2,7 +2,7 @@
 }
 
 #news {
-    min-width:600px;
+    min-width:300px;
 }
 
 .news_title {
@@ -19,7 +19,7 @@
 }
 
 .news_item {
-      padding: 1em 5em;
+      padding: 0em 5em;
 }
 
 .news_caption {
@@ -39,4 +39,15 @@
 .row {
     margin-left:0;
     margin-right:0;
+}
+
+hr{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+@media (max-width: 992px ) {
+  .btn {
+    font-size:1.5em;
+  }
 }

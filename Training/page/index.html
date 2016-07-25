@@ -14,10 +14,22 @@
     <script src="../js/bootstrap.js"></script>
 
     <style>
-       /*foot*/
-       .foot a{
-           color:white;
-       }
+        /*foot*/
+        .foot a {
+            color: white;
+        }
+
+        @media all and (min-width:640px) and (max-width:960px) {
+            footer {
+                display: none;
+            }
+        }
+
+        @media all and (max-width:1170px) {
+            #headList {
+                display: none;
+            }
+        }
     </style>
 
 </head>
@@ -42,7 +54,7 @@
                     <li><a href="#">业务方向</a></li>
                     <li><a href="#">企业动态</a></li>
                     <li class="nav-current"><a href="#">工作机会<span class="sr-only">(current)</span></a></li>
-                    <li class="menu-list-sub">
+                    <li id="headList" class="menu-list-sub">
                         <a href="">开发中心&nbsp;&nbsp;|</a>
                         <a href="">
                             <span class="nav-right-icon"></span>English&nbsp;&nbsp;|
@@ -161,15 +173,15 @@
 
     </div>
 
-    <footer class="container-fluid foot" style="color:white">
+    <footer id="footer" class="container-fluid foot" style="color:white">
         <div class="row" style="border-color:white;background-color:gray;padding:3em 1em;">
             <div class="col-lg-12" style="width:85%;margin:0 auto;">
                 <div class="col-lg-1 col-lg-push-1"><img src="../img/Career/top_thinkgeo_logo.png" alt="" class="pull-right"></div>
-                <div class="col-lg-7 col-lg-push-1" >
+                <div class="col-lg-7 col-lg-push-1">
                     <p style="margin-bottom:5em;line-height:3em">
                         成都思宙信息科技（思宙科技）是一家集软件开发，实施，以及软件资讯为一体的软件服务提供商为企业刻画的商业成功提共高 水准的开发工具，软件开发和商业咨询服务。在不断向全球化发展过程中，思宙科技始终坚持扎实的技术能力，敏感的前沿动态观察，和崇高的道德水准， 致力于成为客户可以长久信赖的合作伙伴。
                     </p>
-                    <div class="footer-detail" >
+                    <div class="footer-detail">
                         <a href="#" style="border-right:1px solid white;padding-right:0.5em;">隐私政策</a>
                         <a href="#" style="padding-left:0.5em">联系我们</a>
                     </div>

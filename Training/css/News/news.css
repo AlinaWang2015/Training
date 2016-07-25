@@ -18,10 +18,6 @@
     font-size: 0.6em;
 }
 
-.news_item {
-      padding: 0em 5em;
-}
-
 .news_caption {
     padding:1em 0em;
 }
@@ -47,7 +43,13 @@ hr{
 }
 
 @media (max-width: 992px ) {
-  .btn {
-    font-size:1.5em;
-  }
+    .news_item {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width:992px) {
+    .news_item {
+        padding: 0em 5em;
+    }
 }

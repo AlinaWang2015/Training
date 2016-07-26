@@ -61,7 +61,7 @@ hr{
 
 @media only screen and (max-width:1230px ) {
 	.navbar-nav>li>a {
-		font-size: 14px;/*change to 0.875em*/
+		font-size: 12px;/*change to 0.75em*/
 		padding-left: 5px;
 		padding-right: 5px;
 	}	

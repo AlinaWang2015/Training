@@ -1,28 +1,15 @@
-﻿img {max-width:100%;height:auto; } 
-.row {
-  border:0 solid gray;
-  margin-right: 0;
-  margin-left: 0;
-}
-#learnmore {font-weight:bold;background-color:#2B669A;color:white;width:8em;height:3em;
-        } 
-* {
+﻿* {
     font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
-    /*font-size: 13px;*/
+    font-size: 15px;
 }
 
-.menu,
-.menu-list {
-    padding: 0;
-    margin: 0;
+img {
+    max-width: 100%;
+    height: auto;  
 }
-
-h3 strong {
-    font-size: 20px;
-}
-
 .navbar-default {
     background-color: #ffffff;
+    border-bottom-color:#e7e7e7;
 }
 
 .menu {
@@ -34,6 +21,9 @@ h3 strong {
     padding: 0;
     margin: 0;
 }
+    .menu img {
+    margin-bottom:35px;
+    }
 
     .menu li {
         font-size: 14px;
@@ -45,13 +35,13 @@ h3 strong {
 
         .menu li.nav-current a {
             border-bottom: 2px solid #19ef0b;
-            margin-bottom: -2px;
+            margin-bottom: -20px;
         }
 
         .menu li a {
-            font-size: 14px;
+            font-size: 16px;
             color: #000;
-            line-height: 4em;
+            line-height: 55px;
             display: block;
             margin: 0 21px;
             text-decoration: none;
@@ -61,17 +51,13 @@ h3 strong {
                 height: 3em;
             }
 
-.menu-list {
-    padding: 1em;
-    line-height: 2em;
-}
-
 .menu-list-sub {
     font-size: 14px;
-    padding-left: 10em;
+    padding-left: 120px;
 }
 
 li.menu-list-sub a {
+    font-size:13px;
     font-weight: 400;
     height: 4em;
     margin: 0;
@@ -81,65 +67,111 @@ li.menu-list-sub a {
 
 .nav-right-icon {
     display: inline-block;
-    width: 1em;
-    height: 1em;
     background-image: url(/img/Products_services/thinkgeo_right_logo.png);
     width: 1.5em;
     height: 1.5em;
     background-size: cover;
     position: relative;
-    margin: -0.5em 0.2em;
-}
-/*container*/
-
-.wrapper {
-    padding: 4em;
+    margin: -7px 0;
 }
 
-    .wrapper:nth-child(n+1) {
-        border-bottom: 1px solid #eeeeee;
+
+.row {
+    height: auto;
+    border: 0 solid gray;
+    margin-right: 0;
+    margin-left: 0;
+}
+    .row h2 {
+    margin-top:50px;
+    }
+    .row h3 {
+        margin-top:50px;
+    }
+    .row p {
+        letter-spacing:1px;
+        margin:auto;
+    }
+    .row ul {
+        letter-spacing:1px;
+        margin:auto;
     }
 
-    .wrapper:nth-last-child(1) {
-        padding-bottom: 10em;
+    .row img {
+        margin:40px 0;
     }
 
-.page-header {
-    border: none;
+.row-first {
+    margin-bottom:40px;
 }
-
-.wrapper h3 {
-    margin-bottom: 2em;
+.row-first-textone {
+    font-size:2.4em;
+    width:auto;
+    left:0.5em;
 }
+.row-first-texttwo {
+    font-weight:bold;
+    color:gray; 
+    font-size:1em;
+    width:auto;
+    top:1.7em;
+}
+.row-second {
+    background-color:#F5F5F5;
+}
+    .row-second img {
+    margin:30px 0;
+    }
+    .row-second h2 {
+        font-weight:bold;
+        margin-top:40px;
+    }
 
+
+
+.row-fourth {
+    align-content:center;
+    background-color:#F5F5F5;
+}
+    .row-fourth h1 {
+        text-align:center;
+        font-size:3em;
+        font-weight:bold;
+        margin-top:40px;
+    }
+    .row-fourth p {
+        font-size:1.2em;
+    }
+    .row-fourth img {
+        margin:0 15px;
+    }
 .footer {
-    background-color: #515151;
-    height: 18em;
+    height: auto;
+    padding-top:30px;
+    background-color:#4c4c4c;
+    color:white;
 }
 
-    .footer .menu {
-        color: #ffffff;
-        text-align: center;
+    .footer p {
+        letter-spacing:1px;
+        line-height:2;
+        font-size:.7em;
     }
-
-.wrapper ul {
-    padding: 14px;
-}
-
-.wrapper h3 {
-    margin-bottom: 2em;
-}
-
-.footer .col-sm-4 {
-    top: 7em;
-    color: #ffffff;
-}
-
-.footer-detail {
-    position: absolute;
-    top: 9em;
-}
-
-    .footer-detail a {
-        color: #ffffff;
+    .footer ul {
+        background-color:#4c4c4c;
+        color:white;
     }
+    .footer a {
+        color:white;
+    }
+    .footer img {
+        text-align:center;
+        margin:25px 0;
+    }
+.button {
+    background-color:#2B669A;
+    color:white;
+    width:8em;
+    height:3em;
+    margin:20px 0 20px 20px;
+}

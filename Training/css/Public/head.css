@@ -19,7 +19,7 @@
         list-style: none;
         display: inline-block;
         position: relative;
-        height: 4em;
+        height: 6em;
     }
 
         .menu li.nav-current a {
@@ -29,8 +29,9 @@
 
         .menu li a {
             font-size: 14px;
+            font-weight:bold;
             color: #000;
-            line-height: 4em;
+            line-height: 6em;
             display: block;
             margin: 0 21px;
             text-decoration: none;

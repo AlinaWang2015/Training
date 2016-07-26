@@ -16,7 +16,7 @@ a:hover {
 
 .table, .table * {
     margin: 15px;
-     padding: 0;
+    padding: 0;
     font-size: 15px;
     font-family: Arial, 宋体, Helvetica, sans-serif;
 }
@@ -25,10 +25,12 @@ a:hover {
     display:table;
     width:50%;
     border-collapse:collapse;
+   
 }
 
 .table-tr {
-    display:table-row; height: 35px;
+    display:table-row; 
+    height: 35px;
 }  
 
 .table-th {
@@ -42,8 +44,13 @@ a:hover {
 
 .table-td {
     display: table-cell;
-    height: 50%;
+    height: 70%;
     border: 1px solid gray;
     text-align: center;
     vertical-align: middle;
 } 
+@media all and (min-width:300px) and (max-width:800px){
+  img{
+   width:300px;height:300px;
+  }
+}

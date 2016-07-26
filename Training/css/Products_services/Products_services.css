@@ -1,0 +1,177 @@
+﻿* {
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;  
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-bottom-color:#e7e7e7;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu,
+.menu-list {
+    padding: 0;
+    margin: 0;
+}
+    .menu img {
+    margin-bottom:35px;
+    }
+
+    .menu li {
+        font-size: 14px;
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        height: 4em;
+    }
+
+        .menu li.nav-current a {
+            border-bottom: 2px solid #19ef0b;
+            margin-bottom: -20px;
+        }
+
+        .menu li a {
+            font-size: 16px;
+            color: #000;
+            line-height: 55px;
+            display: block;
+            margin: 0 21px;
+            text-decoration: none;
+        }
+
+            .menu li a img {
+                height: 3em;
+            }
+
+.menu-list-sub {
+    font-size: 14px;
+    padding-left: 120px;
+}
+
+li.menu-list-sub a {
+    font-size:13px;
+    font-weight: 400;
+    height: 4em;
+    margin: 0;
+    display: inline-block;
+    color: #696262;
+}
+
+.nav-right-icon {
+    display: inline-block;
+    background-image: url(/img/Products_services/thinkgeo_right_logo.png);
+    width: 1.5em;
+    height: 1.5em;
+    background-size: cover;
+    position: relative;
+    margin: -7px 0;
+}
+
+
+.row {
+    height: auto;
+    border: 0 solid gray;
+    margin-right: 0;
+    margin-left: 0;
+}
+    .row h2 {
+    margin-top:50px;
+    }
+    .row h3 {
+        margin-top:50px;
+    }
+    .row p {
+        letter-spacing:1px;
+        margin:auto;
+    }
+    .row ul {
+        letter-spacing:1px;
+        margin:auto;
+    }
+
+    .row img {
+        margin:40px 0;
+    }
+
+.row-first {
+    margin-bottom:40px;
+}
+.row-first-textone {
+    font-size:2.4em;
+    width:auto;
+    left:0.5em;
+}
+.row-first-texttwo {
+    font-weight:bold;
+    color:gray; 
+    font-size:1em;
+    width:auto;
+    top:1.7em;
+}
+.row-second {
+    background-color:#F5F5F5;
+}
+    .row-second img {
+    margin:30px 0;
+    }
+    .row-second h2 {
+        font-weight:bold;
+        margin-top:40px;
+    }
+
+
+
+.row-fourth {
+    align-content:center;
+    background-color:#F5F5F5;
+}
+    .row-fourth h1 {
+        text-align:center;
+        font-size:3em;
+        font-weight:bold;
+        margin-top:40px;
+    }
+    .row-fourth p {
+        font-size:1.2em;
+    }
+    .row-fourth img {
+        margin:0 15px;
+    }
+.footer {
+    height: auto;
+    padding-top:30px;
+    background-color:#4c4c4c;
+    color:white;
+}
+
+    .footer p {
+        letter-spacing:1px;
+        line-height:2;
+        font-size:.7em;
+    }
+    .footer ul {
+        background-color:#4c4c4c;
+        color:white;
+    }
+    .footer a {
+        color:white;
+    }
+    .footer img {
+        text-align:center;
+        margin:25px 0;
+    }
+.button {
+    background-color:#2B669A;
+    color:white;
+    width:8em;
+    height:3em;
+    margin:20px 0 20px 20px;
+}

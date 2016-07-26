@@ -59,11 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\About-us\about-us.css" />
+    <Content Include="css\Public\head.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\Career\career.css" />
     <Content Include="css\Index\index.css" />
     <Content Include="css\Index\modify.css" />
+    <Content Include="css\Products_services\Products_services.css" />
     <Content Include="img\About-us\aaa.jpg" />
     <Content Include="img\About-us\TechnologyPark.jpg" />
     <Content Include="img\Career\thinkgeo_bottom_logo.png" />
@@ -95,6 +97,13 @@
     <Content Include="img\Index\professional.jpg" />
     <Content Include="img\Index\research.jpg" />
     <Content Include="img\Index\thinkgeo.jpg" />
+    <Content Include="img\Products_services\image1.PNG" />
+    <Content Include="img\Products_services\image2.PNG" />
+    <Content Include="img\Products_services\image3.png" />
+    <Content Include="img\Products_services\logo.PNG" />
+    <Content Include="img\Products_services\microsoft.PNG" />
+    <Content Include="img\Products_services\thinkgeo.PNG" />
+    <Content Include="img\Products_services\thinkgeo_right_logo.png" />
     <Content Include="js\About-us\about-us.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -109,8 +118,8 @@
     <Content Include="page\career.html" />
     <Content Include="page\footer.html" />
     <Content Include="page\header.html" />
+    <Content Include="page\HtmlPage1.html" />
     <Content Include="page\index.html" />
-    <Content Include="page\index2.html" />
     <Content Include="page\news.html" />
     <Content Include="page\productServices.html" />
     <Content Include="Web.config" />
@@ -127,10 +136,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\Products_services\" />
     <Folder Include="fonts\" />
     <Folder Include="img\News\" />
-    <Folder Include="img\Products_services\" />
     <Folder Include="js\Career\" />
     <Folder Include="js\Products_services\" />
   </ItemGroup>

@@ -1,4 +1,22 @@
 ﻿
+
+/*media query*/
+@media all and (max-width:960px) {
+    #footer {
+        display: none;
+    }
+
+    #mainDiv {
+        margin-bottom: 2em;
+    }
+}
+
+@media all and (max-width:1170px) {
+    #headList {
+        display: none;
+    }
+}
+
 #slides {
     position: relative;
     width: 100%;
@@ -20,8 +38,6 @@
         }
 
 /*pages*/
-
-
 #pages {
     text-align: center; /* pages horizontal center*/
 }

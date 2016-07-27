@@ -1,4 +1,6 @@
-﻿* {
+﻿/*reset css*/
+
+* {
     font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
@@ -12,6 +14,8 @@
 h3 strong {
     font-size: 20px;
 }
+
+
 /*nav*/
 
 .navbar-default {
@@ -28,31 +32,31 @@ h3 strong {
     margin: 0;
 }
 
-    .menu li {
-        font-size: 14px;
-        list-style: none;
-        display: inline-block;
-        position: relative;
-        height: 4em;
-    }
+.menu li {
+    font-size: 14px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    height: 4em;
+}
 
-        .menu li.nav-current a {
-            border-bottom: 2px solid #19ef0b;
-            margin-bottom: -2px;
-        }
+.menu li.nav-current a {
+    border-bottom: 2px solid #19ef0b;
+    margin-bottom: -2px;
+}
 
-        .menu li a {
-            font-size: 14px;
-            color: #000;
-            line-height: 4em;
-            display: block;
-            margin: 0 21px;
-            text-decoration: none;
-        }
+.menu li a {
+    font-size: 14px;
+    color: #000;
+    line-height: 4em;
+    display: block;
+    margin: 0 21px;
+    text-decoration: none;
+}
 
-            .menu li a img {
-                height: 3em;
-            }
+.menu li a img {
+    height: 3em;
+}
 
 .menu-list {
     padding: 1em;
@@ -76,26 +80,28 @@ li.menu-list-sub a {
     display: inline-block;
     width: 1em;
     height: 1em;
-    background-image: url(../img/Career/thinkgeo_right_logo.png);
+    background-image: url(../image/thinkgeo_right_logo.png);
     width: 1.5em;
     height: 1.5em;
     background-size: cover;
     position: relative;
     margin: -0.5em 0.2em;
 }
+
+
 /*container*/
 
 .wrapper {
     padding: 4em;
 }
 
-    .wrapper:nth-child(n+1) {
-        border-bottom: 1px solid #eeeeee;
-    }
+.wrapper:nth-child(n+1) {
+    border-bottom: 1px solid #eeeeee;
+}
 
-    .wrapper:nth-last-child(1) {
-        padding-bottom: 10em;
-    }
+.wrapper:nth-last-child(1) {
+    padding-bottom: 10em;
+}
 
 .page-header {
     border: none;
@@ -105,16 +111,6 @@ li.menu-list-sub a {
     margin-bottom: 2em;
 }
 
-.footer {
-    background-color: #515151;
-    height: 18em;
-}
-
-    .footer .menu {
-        color: #ffffff;
-        text-align: center;
-    }
-
 .wrapper ul {
     padding: 14px;
 }
@@ -123,16 +119,58 @@ li.menu-list-sub a {
     margin-bottom: 2em;
 }
 
+
+/*footer*/
+
+.footer {
+    background-color: #515151;
+    height: 18em;
+}
+
+.footer .menu {
+    color: #ffffff;
+    text-align: center;
+}
+
 .footer .col-sm-4 {
-    top: 7em;
+    top: 3em;
+    color: #ffffff
+}
+
+.footer-detail a {
     color: #ffffff;
 }
 
-.footer-detail {
-    position: absolute;
-    top: 9em;
+.footer p {
+    line-height: 2em;
 }
 
-    .footer-detail a {
-        color: #ffffff;
+
+/*media */
+
+@media screen and (max-width: 1074px) {
+    .menu li:nth-last-child(1) {
+        display: none;
     }
+}
+
+@media screen and (max-width: 992px) {
+    .footer p {
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu li:nth-last-child(1) {
+        display: block;
+    }
+    .menu li {
+        display: block;
+    }
+    footer {
+        display: none;
+    }
+    .menu-list-sub {
+        padding: 0;
+    }
+}

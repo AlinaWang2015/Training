@@ -3,8 +3,7 @@
     font:"Microsoft YaHei",Helvetica,Arial,Lucida Grande,Tahoma,sans-serif;
     font-size:14px ;
     line-height: 180%;
-    color:#777;
-    background-color:#ffffff;
+    color:#333;
 }
 
 /*Adapt to different screen like different iphone */
@@ -24,12 +23,17 @@
   }
 }
 
+/*cheng du background */
+.chengdu {
+    padding-top: 24px;
+    padding-bottom:54px;
+    padding-left:100px;
+}
 
-.site-title {
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20%;
-    background: url(../img/Career/thinkgeo_top_logo.png); no-repeat left center;
+/*american background */
+.american {
+    padding-top: 14px;
+    padding-left:200px;
 }
 
 /*the table style*/
@@ -93,7 +97,7 @@ a:hover {
         height: 4em;
     }
 
-        .menu li.nav-current a {
+        .nav-current {
             border-bottom: 2px solid #19ef0b;
             margin-bottom: -2px;
         }
@@ -140,9 +144,9 @@ li.menu-list-sub a {
     position: relative;
     margin: -0.5em 0.2em;
 }
-
+/* the sign*/
 #arrow1, #arrow2 {
-    border: 3px solid #666;
+    border: 3px solid #5E37AA;
     border-width: 0 3px 3px 0;
     display: inline-block;
     height: 8px;

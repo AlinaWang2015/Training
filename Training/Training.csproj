@@ -66,12 +66,9 @@
     <Content Include="css\Index\index.css" />
     <Content Include="css\Index\modify.css" />
     <Content Include="css\Products_services\Products_services.css" />
-    <Content Include="img\About-us\aaa.jpg" />
     <Content Include="img\About-us\TechnologyPark.jpg" />
-    <Content Include="img\About-us\thinkgeo_bottom_logo.png" />
-    <Content Include="img\About-us\thinkgeo_right_logo.png" />
+    <Content Include="img\About-us\thinkgeo.PNG" />
     <Content Include="img\About-us\thinkgeo_top_logo.png" />
-    <Content Include="img\About-us\top_thinkgeo_logo.png" />
     <Content Include="img\Career\thinkgeo_bottom_logo.png" />
     <Content Include="img\Career\thinkgeo_right_logo.png" />
     <Content Include="img\Career\thinkgeo_top_logo.png" />
@@ -95,7 +92,7 @@
     <Content Include="img\Index\job.jpg" />
     <Content Include="img\Index\log1.jpg" />
     <Content Include="img\Index\log2.jpg" />
-    <Content Include="img\Index\logo.jpg" />
+    <Content Include="img\Index\logo.png" />
     <Content Include="img\Index\motorola.jpg" />
     <Content Include="img\Index\pioneer.jpg" />
     <Content Include="img\Index\professional.jpg" />
@@ -122,7 +119,6 @@
     <Content Include="page\career.html" />
     <Content Include="page\footer.html" />
     <Content Include="page\header.html" />
-    <Content Include="page\HtmlPage1.html" />
     <Content Include="page\index.html" />
     <Content Include="page\news.html" />
     <Content Include="page\productServices.html" />

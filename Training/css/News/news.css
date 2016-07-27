@@ -2,6 +2,11 @@
     font-family: Microsoft YaHei;
 }
 
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 #news {
     min-width: 300px;
 }
@@ -87,7 +92,6 @@ hr {
 }
 
 
-/*navbar*/
 .navbar-header a {
     line-height: 50px;
 }
@@ -148,7 +152,7 @@ div#example-navbar-collapse {
     }
 }
 
-ul.navbar-nav.navbar-left a {
+.navbar-left a {
     font-size: larger;
     color: black;
 }
@@ -165,59 +169,45 @@ ul.navbar-nav.navbar-left a {
     }
 }
 
-ul.navbar-nav.navbar-right a {
+.navbar-right a {
     font-size: smaller;
     color: black;
 }
 
 /*footer*/
-.footer {
-    background: #4d4d4d;
-    height: 18em;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-    .footer p#introduction {
+#introduction {
         font-size: 0.95em;
         line-height: 250%;
         text-align: left;
         font-family: monospace;
     }
 
-    .footer .footer-detail a {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: monospace;
-        font-size: 0.95em;
-    }
-
-    .footer #footer-content #company-logo {
+#company-logo {
         margin-top: 2em;
     }
 
 @media only screen and (min-width: 1816px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 5em;
     }
 }
 
 @media only screen and (min-width: 1405px) and (max-width: 1815px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 2em;
     }
 }
 
 @media only screen and (max-width: 1404px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 5em;
     }
 
-    .footer p#introduction {
+    #introduction {
         display: none;
     }
 
-    .footer #footer-content #company-logo {
+    #company-logo {
         margin-top: 0;
     }
 }
@@ -226,4 +216,18 @@ ul.navbar-nav.navbar-right a {
     #partnershow {
         width: 100%;
     }
+}
+
+.footer {
+    background: #4d4d4d;
+    height: 18em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-detail a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.95em;
 }

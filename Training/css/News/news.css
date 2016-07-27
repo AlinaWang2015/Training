@@ -1,8 +1,4 @@
-﻿a {
-    font-family: Microsoft YaHei;
-}
-
-#news {
+﻿#news {
     min-width: 300px;
 }
 
@@ -60,31 +56,31 @@ hr {
     .news_item {
         padding: 0em 5em;
     }
-    
-	.navbar-collapse .navbar-nav.navbar-right:last-child {
-		margin-right: 8.333333333333332%;
-	}
+
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: 8.333333333333332%;
+    }
 }
 
 @media only screen and (max-width:1230px ) {
     .navbar-nav > li > a {
         font-size: 14px; /*change to 0.875em*/
-		padding-left: 5px;
-		padding-right: 5px;
-	}	
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .navbar-nav > li > a {
         font-size: 16px; /*change to 1em*/
-	}	
+    }
 }
 
 .navbar, .navbar-default {
-	background: #fff;
-	border-width: 0 0 1px 0;
-	border-radius: 0;
-	box-shadow: 0 0 5px 0 #E3E3E3;
+    background: #fff;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    box-shadow: 0 0 5px 0 #E3E3E3;
 }
 
 div#example-navbar-collapse {
@@ -104,21 +100,21 @@ ul.navbar-nav.navbar-right a{
 }
 
 .navbar-nav > li > a {
-	line-height: 29px;
+    line-height: 29px;
 }
 
 .navbar-nav > li {
-	line-height: 59px;
+    line-height: 59px;
 }
 
 .navbar-collapse {
-	max-height: 100%;
+    max-height: 100%;
 }
 
 
 .footer {
-	background: #4d4d4d;
-	height: 18em;
+    background: #4d4d4d;
+    height: 18em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -135,8 +131,4 @@ ul.navbar-nav.navbar-right a{
         text-decoration: none;
         font-family: monospace;
         font-size: 0.95em;
-}
-
-#partnershow {
-    
-}
+    }

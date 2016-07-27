@@ -22,7 +22,8 @@ img {
     margin: 0;
 }
     .menu img {
-    margin-bottom:35px;
+    margin-bottom:10px;
+
     }
 
     .menu li {
@@ -34,8 +35,7 @@ img {
     }
 
         .menu li.nav-current a {
-            border-bottom: 2px solid #19ef0b;
-            margin-bottom: -20px;
+            border-bottom: 2px solid #19ef0b;          
         }
 
         .menu li a {
@@ -52,8 +52,8 @@ img {
             }
 
 .menu-list-sub {
-    font-size: 14px;
-    padding-left: 120px;
+    font-size: 14px;    
+    padding-left: 7em;
 }
 
 li.menu-list-sub a {
@@ -65,6 +65,23 @@ li.menu-list-sub a {
     color: #696262;
 }
 
+@media only screen and (max-width: 1200px){
+    .menu-list-sub {
+    font-size: 14px;
+    padding-left: 1em;
+}
+}
+@media (min-width:768px) {
+    .menu-list-sub {
+    font-size: 14px;
+    }
+}
+@media (max-width:992px) {
+    .img {
+        background-size:50%;
+        /*height:auto;*/
+    }
+}
 .nav-right-icon {
     display: inline-block;
     background-image: url(/img/Products_services/thinkgeo_right_logo.png);
@@ -75,22 +92,22 @@ li.menu-list-sub a {
     margin: -7px 0;
 }
 
-
 .row {
     height: auto;
-    border: 0 solid gray;
-    margin-right: 0;
-    margin-left: 0;
+    border: 0 solid gray;   
+    margin-left:auto;
+    margin-right:auto;
+    line-height:160%;
 }
     .row h2 {
-    margin-top:50px;
+    margin-top:70px;
     }
     .row h3 {
         margin-top:50px;
     }
     .row p {
         letter-spacing:1px;
-        margin:auto;
+        margin-top:30px;
     }
     .row ul {
         letter-spacing:1px;
@@ -98,58 +115,118 @@ li.menu-list-sub a {
     }
 
     .row img {
-        margin:40px 0;
+        margin:70px 0;
+        padding-left:50px;
     }
 
 .row-first {
     margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .row-first-textone {
     font-size:2.4em;
-    width:auto;
-    left:0.5em;
+    width:5em;
+    padding-left:0;
 }
 .row-first-texttwo {
     font-weight:bold;
     color:gray; 
     font-size:1em;
     width:auto;
-    top:1.7em;
+    top:.7em;
+    padding-left:0;
 }
 .row-second {
-    background-color:#F5F5F5;
+    background-color:#f4f4f4;
+    margin-left:auto;
+    margin-right:auto;
 }
     .row-second img {
-    margin:30px 0;
+        max-width: 90%;
+        margin:50px 0;
+        padding-left:0;
+        padding-right:30px;
     }
     .row-second h2 {
-        font-weight:bold;
-        margin-top:40px;
+        margin-top: 50px;
     }
-
-
+    .row-second p {
+        margin-top: 30px;
+    }
+@media (min-width: 992px)
+{
+    .row
+    {
+        width:960px;
+        max-width: 970px;
+    }
+    .footer
+    {
+        height:15em;
+        width:960px;
+    }
+}
+@media (min-width: 768px)
+{   
+    .footer
+    {
+        height:15em;
+    }
+    .navbar-header img
+    {
+        display:none;
+    }
+    .footer img {
+        text-align:center;
+        margin:25px 0;
+    }
+}
+@media (max-width: 768px)
+{     
+    .menu img
+    {
+        display:none;
+    }
+    .footer img {
+        margin:0;
+    }
+}
+.gray-bachground
+{
+    height: auto; 
+    background-color: #f4f4f4;
+}
 
 .row-fourth {
-    align-content:center;
-    background-color:#F5F5F5;
+    background-color:#f4f4f4;
 }
     .row-fourth h1 {
         text-align:center;
         font-size:3em;
-        font-weight:bold;
         margin-top:40px;
     }
     .row-fourth p {
         font-size:1.2em;
     }
-    .row-fourth img {
-        margin:0 15px;
+    .row-fourth img {        
+        margin:10px 0;
+        padding-left:0;
     }
+.breadcrumb{
+    background-color:#4c4c4c;
+}
 .footer {
-    height: auto;
     padding-top:30px;
     background-color:#4c4c4c;
     color:white;
+    border: 0 solid gray;
+    margin-right: auto;
+    margin-left: auto;
+}
+#footer {
+    height:auto;
+    background-color:#4c4c4c;
 }
 
     .footer p {
@@ -158,7 +235,6 @@ li.menu-list-sub a {
         font-size:.7em;
     }
     .footer ul {
-        background-color:#4c4c4c;
         color:white;
     }
     .footer a {
@@ -166,12 +242,15 @@ li.menu-list-sub a {
     }
     .footer img {
         text-align:center;
-        margin:25px 0;
+        /*margin:25px 0;*/
     }
 .button {
+    font-size:15px;
+    align-content:center;
     background-color:#2B669A;
     color:white;
-    width:8em;
-    height:3em;
-    margin:20px 0 20px 20px;
+    width:auto;
+    height:40px;
+    margin:50px 0 35px 20px;
+    padding:9px 15px;
 }

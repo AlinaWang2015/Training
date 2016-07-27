@@ -66,8 +66,9 @@
     <Content Include="css\Index\index.css" />
     <Content Include="css\Index\modify.css" />
     <Content Include="css\Products_services\Products_services.css" />
-    <Content Include="img\About-us\aaa.jpg" />
     <Content Include="img\About-us\TechnologyPark.jpg" />
+    <Content Include="img\About-us\thinkgeo.PNG" />
+    <Content Include="img\About-us\thinkgeo_top_logo.png" />
     <Content Include="img\Career\thinkgeo_bottom_logo.png" />
     <Content Include="img\Career\thinkgeo_right_logo.png" />
     <Content Include="img\Career\thinkgeo_top_logo.png" />

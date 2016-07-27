@@ -2,19 +2,16 @@
     font-family: Microsoft YaHei;
 }
 
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 #news {
     min-width: 300px;
 }
 
-.news_title {
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-#News_container {
-    padding: 1.2em 0em 0.6em 0em;
-}
-
+/*News header*/
 #news_Ch {
     font-family: Microsoft YaHei;
     font-size: 2.25em;
@@ -24,6 +21,28 @@
     font-size: 0.5em;
     font-weight: bold;
     color: rgb(144, 145, 145);
+}
+
+@media (max-width: 992px ) {
+    .news_item {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width:992px) {
+    .news_item {
+        padding: 0em 5em;
+    }
+}
+
+/*News body*/
+#News_container {
+    padding: 1.2em 0em 0.6em 0em;
+}
+
+.news_title {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .news_caption {
@@ -45,108 +64,142 @@
     margin-right: 0;
 }
 
-hr {
-    margin-top: 1em;
-    margin-bottom: 1em;
+/*navbar*/
+#logo {
+    height: 3em;
 }
 
-@media (max-width: 992px ) {
-    .news_item {
-        padding: 0em 1em;
-    }
+#example-navbar-collapse {
+    padding-left: 0;
+    margin: 5px 0;
+    list-style: none;
 }
 
-@media (min-width:992px) {
-    .news_item {
-        padding: 0em 5em;
-    }
-    
-	.navbar-collapse .navbar-nav.navbar-right:last-child {
-		margin-right: 8.333333333333332%;
-	}
+.navbar-header a {
+    line-height: 50px;
+}
+
+.navbar-collapse {
+    max-height: 100%;
+}
+
+.navbar, .navbar-default {
+    background: #fff;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    box-shadow: 0 0 5px 0 #E3E3E3;
+}
+
+.navbar-nav > li > a {
+    line-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 @media only screen and (max-width:1230px ) {
     .navbar-nav > li > a {
-        font-size: 14px; /*change to 0.875em*/
-		padding-left: 5px;
-		padding-right: 5px;
-	}	
+        font-size: 0.875em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .navbar-nav > li > a {
-        font-size: 16px; /*change to 1em*/
-	}	
+        font-size: 1em;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-right li {
+        display: inline-block;
+        margin: 0 25px;
+        font-size: 1.2em;
+    }
+
+    .navbar-left {
+        border-bottom: 1px solid #19ef0b;
+    }
 }
 
-.navbar, .navbar-default {
-	background: #fff;
-	border-width: 0 0 1px 0;
-	border-radius: 0;
-	box-shadow: 0 0 5px 0 #E3E3E3;
+.navbar-left a {
+    font-size: larger;
+    color: black;
 }
 
-div#example-navbar-collapse {
-    padding-left: 0;
-    /*margin: 0.75em;*/
-    list-style: none;
+@media only screen and (min-height: 768px) {
+    .navbar-left:first-child {
+        margin-left: 20px;
+    }
 }
 
-ul.navbar-nav.navbar-left a{
-    font-size:larger;
-    color:black;
+.navbar-right a {
+    font-size: smaller;
+    color: black;
 }
 
-ul.navbar-nav.navbar-right a{
-    font-size:smaller;
-    color:black;
+@media (min-width:992px) {
+    .navbar-right:last-child {
+        margin-right: 8.333333333333332%;
+    }
 }
 
-.navbar-nav > li > a {
-	line-height: 50px;
-    padding-top:0;
-    padding-bottom:0;
+/*footer*/
+#introduction {
+    font-size: 0.95em;
+    line-height: 250%;
+    text-align: left;
+    font-family: monospace;
 }
 
-.navbar-nav > li {
-	/*line-height: 59px;*/
+#company-logo {
+    margin-top: 2em;
 }
 
-.navbar-collapse {
-	max-height: 100%;
+@media only screen and (min-width: 1816px) {
+    #footer-content {
+        margin-top: 5em;
+    }
 }
 
+@media only screen and (min-width: 1405px) and (max-width: 1815px) {
+    #footer-content {
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 1404px) {
+    #footer-content {
+        margin-top: 5em;
+    }
+
+    #introduction {
+        display: none;
+    }
+
+    #company-logo {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #partnershow {
+        width: 100%;
+    }
+}
 
 .footer {
-	background: #4d4d4d;
-	height: 18em;
+    background: #4d4d4d;
+    height: 18em;
     text-align: center;
     color: #FFFFFF;
 }
 
-    .footer p#introduction {
-        font-size: 0.95em;
-        line-height: 285%;
-        text-align: left;
-        font-family: monospace;
-    }
-
-    .footer .footer-detail a {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: monospace;
-        font-size: 0.95em;
-}
-
-#partnershow {
-    
-}
-
-.navbar-header a {
-    line-height:50px;
-}
-
-a #logo {
-    height:3em;
+.footer-detail a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.95em;
 }

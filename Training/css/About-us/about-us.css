@@ -4,16 +4,9 @@
     font-size:14px ;
     line-height: 180%;
     color:#777;
-    background-color:#ffffff;
-}
-/*Adapt to different screen like different iphone */
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
+/*Adapt to different screen like different iphone */
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -29,22 +22,22 @@
     width: 1170px;
   }
 }
-.container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+
+/*cheng du background */
+.chengdu {
+    padding-top: 24px;
+    padding-bottom:54px;
+    padding-left:100px;
 }
 
-
-.site-title {
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20%;
-    background-image: url(../img/Career/thinkgeo_top_logo.png) no-repeat left center;
+/*american background */
+.american {
+    padding-top: 24px;
+    padding-bottom:54px;
+    padding-left:100px;
 }
 
-
+/*the table style*/
 .table, .table * {
     margin: 15px;
     padding: 0;
@@ -70,41 +63,18 @@
 
 .table-td {
     display: table-cell;
-    height: 70%;
+    height: 50%;
     border-width:1px 0;
-    border-color:gray;
     border-style:solid;
     text-align: center;
     vertical-align: middle;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* a style*/
 a:hover {
-    color: #ff0000;
+    color: #000000;
 }
-
-
-/*@media all and (min-width:300px) and (max-width:800px) {
-    img {
-        width: 600px;
-        height: 600px;
-    }
-}*/
+/*nav*/
 
 .navbar-default {
     background-color: #ffffff;
@@ -174,4 +144,27 @@ li.menu-list-sub a {
     background-size: cover;
     position: relative;
     margin: -0.5em 0.2em;
+}
+
+#arrow1, #arrow2 {
+    border: 3px solid #666;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    height: 8px;
+    -moz-transform-origin: center center;
+    -moz-transform: rotate(45deg);
+    -moz-transition: all .5s ease-in .1s;
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: all .5s ease-in .1s;
+    -o-transform-origin: center center;
+    -o-transform: rotate(45deg);
+    -o-transition: all .5s ease-in .1s;
+    -ms-transform-origin: center center;
+    -ms-transform: rotate(45deg);
+    -ms-transition: all .5s ease-in .1s;
+    transform-origin: center center;
+    transform: rotate(-45deg);
+    transition: all .5s ease-in .1s;
+    width: 8px;
 }

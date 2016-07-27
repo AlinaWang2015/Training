@@ -1,17 +1,229 @@
 ﻿body {
     font-size: 14px;
+    font-family: Microsoft YaHei;
 }
 
-.pack {
-padding-top:6em;
-}
-img {
-    width: 100%;
+.pack img {
     height: auto;
+    width: 100%;
 }
 
 .row {
     border-width: 0;
+}
+
+/*font*/
+.navbar-left a {
+    color: black !important;
+    font-size:larger;
+}
+
+/*last version*/
+
+
+@media (min-width: 768px) {
+    .navbar-collapse .navbar-nav.navbar-left:first-child {
+        margin-left: 0;
+    }
+
+    .navbar-collapse .navbar-nav li {
+        float: left;
+    }
+}
+
+/*override some css*/
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-right > li > a {
+    padding: 0px;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        padding-right: 20em;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-right {
+        padding-right: 2em;
+    }
+}
+
+
+#logo {
+}
+
+
+nav_container
+/*some fixed items*/
+#icon_english {
+    width: 16px;
+    height: 16px;
+}
+
+.vertical_bar {
+    margin: 0 0.5em;
+}
+
+
+
+
+/*navbar*/
+#example-navbar-collapse {
+    padding-left: 0;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.navbar-header a {
+    line-height: 50px;
+}
+
+.navbar-collapse {
+    max-height: 100%;
+}
+
+.navbar, .navbar-default {
+    background: #fff;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    box-shadow: 0 0 5px 0 #E3E3E3;
+}
+
+.navbar-nav > li > a {
+    line-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width:1230px ) {
+    .navbar-nav > li > a {
+        font-size: 0.875em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav > li > a {
+        font-size: 1em;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-right li {
+        display: inline-block;
+        margin: 0 25px;
+        font-size: 1.2em;
+    }
+
+    .navbar-left {
+        border-bottom: 1px solid #19ef0b;
+    }
+}
+
+.navbar-left a {
+    font-size: larger;
+    color: black;
+}
+
+@media only screen and (min-height: 768px) {
+    .navbar-left:first-child {
+        margin-left: 20px;
+    }
+}
+
+.navbar-right a {
+    font-size: smaller;
+    color: black;
+}
+
+@media (min-width:992px) {
+    .navbar-right:last-child {
+        margin-right: 8.333333333333332%;
+    }
+}
+
+
+/*carousel*/
+#slides {
+    position: relative;
+}
+
+    #slides div {
+        cursor: pointer;
+    }
+
+    /*carousel imgs*/
+
+    #slides img {
+        position: relative;
+        display: none;
+        max-width: 100%;
+    }
+
+        /*current img style*/
+        #slides img.active {
+            display: block;
+            width: 1680px;
+        }
+
+
+/*carousel pages*/
+#pages {
+    text-align: center; /* pages horizontal center*/
+}
+
+    #pages .page {
+        display: inline-block;
+        zoom: 1; /**/
+        border-radius: 10px;
+    }
+
+    /*not current page*/
+    #pages span {
+        /*a block element can by set width,height,padding,margin*/
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 5px 7px;
+        /**/
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+        background: #869791;
+        /*Browser compatibility*/
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    /*current page*/
+    #pages .page.active span {
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin: 5px 7px;
+        filter: Alpha(Opacity=50);
+        opacity: 1; /**/
+        background: #ffffff; /**/
+        border: 2px solid #1AE6E6; /**/
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    #pages span {
+        cursor: pointer;
+    }
+
+
+.pack {
+    padding-top: 2em;
 }
 
 
@@ -22,15 +234,16 @@ img {
 }
 
     .profile .row div:hover {
-    background-color:#cbc9c3;
+        background-color: #cbc9c3;
     }
 /*text section*/
 .characters {
     float: left;
     margin-top: 6em;
 }
+
     .characters img:hover {
-    border-bottom:2px solid #dcdcdc;
+        border-bottom: 2px solid #dcdcdc;
     }
 
 .clearDiv {
@@ -41,34 +254,37 @@ img {
 
 /*company situation*/
 .situation {
-    /*float:left;*/
-    margin-top:6em;
+    margin-top: 6em;
     background-color: #efebdd;
     padding: 0.5em 0.3em;
 }
 
     .situation div {
-        padding-left:4px;
-        padding-right:4px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
+
 .profile .row div {
-       padding-left:4px;
-      padding-right:4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
+
 .situation div a img:hover {
-transform:rotate(7deg);
+    transform: rotate(7deg);
 }
 /*typical customer*/
 .customer {
-    /*float:left;*/
     margin-top: 3em;
 }
+
     .customer div {
-    padding:7px;
+        padding: 7px;
     }
+
         .customer div img:hover {
-        border:5px solid #efebdd;
+            border: 5px solid #efebdd;
         }
+
 h2 {
     font-size: 2em;
     text-align: center;
@@ -76,31 +292,37 @@ h2 {
 }
 /*footer*/
 p {
-color:white;
+    color: white;
 }
+
 .footer {
-background-color:#4d4d4d;
-padding:3em 0em;
-margin-top:4em;
+    background-color: #4d4d4d;
+    padding: 3em 0em;
+    margin-top: 4em;
 }
+
     .footer img {
-    animation:rotate 1s infinite linear;
-    -webkit-animation:rotate 10s infinite linear;
+        animation: rotate 1s infinite linear;
+        -webkit-animation: rotate 10s infinite linear;
     }
-    .footer img:hover{
-    animation:rotate 1s 1 linear;
-    -webkit-animation:rotate 1s 1 linear;
-    }
-   @-webkit-keyframes rotate {
-    from {
-    -webkit-transform:rotateY(0);
-    transform:rotateY(0);
-    }
-    to {
-    -webkit-transform:rotateY(-360deg);
-    transform:rotateY(-360deg);
-    }
+
+        .footer img:hover {
+            animation: rotate 1s 1 linear;
+            -webkit-animation: rotate 1s 1 linear;
         }
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+
+    to {
+        -webkit-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
+}
+
 /*bootstrap modify*/
 
 /* < 768px*/
@@ -119,24 +341,29 @@ margin-top:4em;
     .situation {
         background-color: #fff;
     }
+
     .footer .footer-detail {
-    text-align:center;
+        text-align: center;
     }
+
     .footer p {
-    display:none;
+        display: none;
     }
+
     .footer img {
-    display:none;
+        display: none;
     }
 }
+
 @media (min-width:424px) and (max-width:767px) {
-    .footer p{
-    display:none;
+    .footer p {
+        display: none;
     }
 }
+
 @media (min-width: 424px) {
     .container {
-        max-width: 1200px;
+        max-width: 1024px;
     }
 
     .col-lg-1,

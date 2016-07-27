@@ -20,4 +20,7 @@
         }
     }, 2000);
 
+    //use animate to switch img
+
+
 }

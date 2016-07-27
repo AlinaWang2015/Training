@@ -1,72 +1,153 @@
-﻿      /*carousel page position*/
-      #slideDiv .pages {
-      position: absolute;
-      }
+﻿body {
+    font-size: 16px;
+}
 
-      /*carousel page style*/
-      #slideDiv .slides div {
-      cursor: pointer;
-      }
+.pack {
+padding-top:6em;
+}
+img {
+    width: 100%;
+    height: auto;
+}
 
-      /*Let the pictures can overlap*/
-      #slides img {
-      position: absolute;
-      z-index:-1;
-      width:100%;
-      }
+.row {
+    border-width: 0;
+}
 
-      /*current img style*/
-      #slides img.active {
-      position: absolute;
-      z-index:1;
-      }
 
-      /*pages*/
-      #slideDiv #pages {
-      text-align: center; /* pages horizontal center*/
-      position: relative;
-      top: 500px;
-      }
+/*--company profile*/
+.profile {
+    border: 0.15em solid #dcdcdc;
+    padding: 0.5em 1.2em;
+}
 
-      #pages .page {
-      display: inline-block;
-      zoom: 1; /**/
-      border-radius: 10px;
-      }
 
-      /*not current page*/
-      #pages span {
-      /*a block element can by set width,height,padding,margin*/
-      display: block;
-      width: 12px;
-      height: 12px;
-      margin: 5px 7px;
-      /**/
-      filter: Alpha(Opacity=50);
-      opacity: .2;
-      background: #869791;
-      /*Browser compatibility*/
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px;
-      }
+/*text section*/
+.characters {
+    float: left;
+    margin-top: 6em;
+}
 
-      /*current page*/
-      #pages .page.active span {
-      display: block;
-      width: 12px;
-      height: 12px;
-      margin: 5px 7px;
-      filter: Alpha(Opacity=50);
-      opacity: 1; /**/
-      background: #ffffff; /**/
-      border: 2px solid #1AE6E6; /**/
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      border-radius: 10px;
-      }
+.clearDiv {
+    clear: both;
+    float: none;
+}
 
-      #pages span {
-      cursor: pointer;
-      }
 
+/*company situation*/
+.situation {
+    /*float:left;*/
+    margin-top:6em;
+    background-color: #efebdd;
+    padding: 0.5em 0.3em;
+}
+
+    .situation div {
+        padding-left:4px;
+        padding-right:4px;
+    }
+.profile .row div {
+       padding-left:4px;
+      padding-right:4px;
+}
+
+/*typical customer*/
+.customer {
+    /*float:left;*/
+    margin-top: 5em;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/*bootstrap modify*/
+
+/* < 768px*/
+@media (max-width:768px) {
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding: 0px;
+    }
+
+    .profile {
+        border: 0px;
+    }
+
+    .situation {
+        background-color: #fff;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11 {
+        float: left;
+    }
+
+    .col-lg-1 {
+        width: 8.333333333333332%;
+    }
+
+    .col-lg-2 {
+        width: 20%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33333333333333%;
+    }
+
+    .col-lg-5 {
+        width: 41.66666666666667%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.333333333333336%;
+    }
+
+    .col-lg-8 {
+        width: 66.66666666666666%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33333333333334%;
+    }
+
+    .col-lg-11 {
+        width: 91.66666666666666%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}

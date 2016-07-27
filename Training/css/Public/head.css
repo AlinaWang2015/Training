@@ -1,0 +1,72 @@
+﻿/*nav*/
+
+.navbar-default {
+    background-color: #ffffff;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu,
+.menu-list {
+    padding: 0;
+    margin: 0;
+}
+
+    .menu li {
+        font-size: 14px;
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        height: 6em;
+    }
+
+        .menu li.nav-current a {
+            border-bottom: 2px solid #19ef0b;
+            margin-bottom: -2px;
+        }
+
+        .menu li a {
+            font-size: 14px;
+            font-weight:bold;
+            color: #000;
+            line-height: 6em;
+            display: block;
+            margin: 0 21px;
+            text-decoration: none;
+        }
+
+            .menu li a img {
+                height: 3em;
+            }
+
+.menu-list {
+    padding: 1em;
+    line-height: 2em;
+}
+
+.menu-list-sub {
+    font-size: 14px;
+    padding-left: 10em;
+}
+
+li.menu-list-sub a {
+    font-weight: 400;
+    height: 4em;
+    margin: 0;
+    display: inline-block;
+    color: #696262;
+}
+
+.nav-right-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(/img/Career/thinkgeo_right_logo.png);
+    width: 1.5em;
+    height: 1.5em;
+    background-size: cover;
+    position: relative;
+    margin: -0.5em 0.2em;
+}

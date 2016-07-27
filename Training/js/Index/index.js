@@ -20,6 +20,4 @@
         }
     }, 2000);
 
-    //# change img by animate
-
 }

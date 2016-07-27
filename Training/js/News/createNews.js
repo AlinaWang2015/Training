@@ -52,6 +52,6 @@
     ]
 };
 
-for (var i = 0; i < News.data.datas.length; i++) {
+for (var i = News.data.datas.length - 1; i >= 0; i--) {
     News.news.add(News.data.datas[i]);
 }

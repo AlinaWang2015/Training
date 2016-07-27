@@ -38,14 +38,13 @@
                         </div>
                         <div class="collapse navbar-collapse" id="example-navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li>
-                                    <a class="currentnavbar" href="#">关于我们<span class="sr-only">(current)</span></a>
-                                </li>
+                                <li class="nav-current"><a href="#">关于我们<span class="sr-only">(current)</span></a></li>
+
                                 <li>
                                     <a href="productServices.html">业务方向</a>
                                 </li>
                                 <li>
-                                    <a class="currentnavbar" href="#">企业动态</a>
+                                    <a href="news.html">企业动态</a>
                                 </li>
                                 <li>
                                     <a href="career.html">工作机会</a>
@@ -80,7 +79,7 @@
         <div class="container">
 
             <!--the content-header -->
-            <div id="content-header" style="padding-bottom:25px;">
+            <div id="content-header" style="padding-bottom:74px;">
                 <h2 style="color:#444">关于我们 <small>About us</small></h2>
             </div>
             <!--end content-header-->
@@ -88,12 +87,18 @@
             <!--the choice about thinkgeo information -->
             <div id="choice">
                 <ul id="myTab" class="nav nav-tabs ">
-                    <li class="active ">
+                    <li class="active" id="ch">
                         <a href="#chengdu" data-toggle="tab">
-                            > 成都思宙信息科技
+                            <span id="arrow1"></span>
+                             <span id="chname">成都思宙信息科技</span>
                         </a>
                     </li>
-                    <li><a href="#american" data-toggle="tab"><span>></span>美国ThinkGeo LLC</a></li>
+                    <li id="am">
+                        <a href="#american" data-toggle="tab">
+                            <span id="arrow2"></span>
+                            <span id="amname">美国ThinkGeo LLC</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!--end the choice-->
@@ -102,12 +107,11 @@
             <div id="myTabContent" class="tab-content">
 
                 <!--the Chengdu Thinkgeo information -->
-                <div class="tab-pane fade in active" id="chengdu" style="padding-bottom:20%;" >
-                    <div style="background-image:url(../img/About-us/TechnologyPark.jpg)"></div>
-                    <br />
+                <div class="tab-pane fade in active " id="chengdu" style="padding-bottom:20%;" >
+                    <div id="img-chengdu" class="chengdu"><img src="../img/About-us/TechnologyPark.jpg"/></div>
                     <p>
                         成都思宙信息科技有限公司（Chengdu Thinkgeo Technology Information LLC）成立于2010年4月，
-                        是美国Thinkgeo LLC</a>全球唯一全资子公司，面向全球市场提供软件研发服务以及为ThinkGeo客户提供技术咨询服务。
+                        是美国Thinkgeo LLC全球唯一全资子公司，面向全球市场提供软件研发服务以及为ThinkGeo客户提供技术咨询服务。
                     </p>
                     <p>
                         公司位于成都市武侯区四川大学校园内，作为ThinkGeo的研发中心，从事地理信息系统(GIS)领域的控件开发以及基于该控件的产品和服务。公司从创立的第一天开
@@ -151,42 +155,16 @@
 
                 <!--the information about american thinkgeo-->
                 <div class="tab-pane fade" id="american" style="margin-top:5%;margin-bottom:20%">
+                    
                     <div class="container ">
-                        <p class="text-center"><img src="../img/About-us/aaa.jpg" /></p>
+                        <div id="img-american" class="american"><img src="../img/About-us/thinkgeo.PNG" /></div>
                         <br />
                         <p>
                             ThinkGeo成立于2004年，已经快速发展成为地理三维空间行业提供.NET软件解决方案的最佳供应商之一。客户遍及各个行业，从农业，航空业到政府机构和电信部门。
                             ThinkGeo具有多年的为Microsoft .NET平台开发软件的经验。其主要产品微软.NET平台开发应用组件“Map Suite”能够帮助软件开发人员迅速构建专业级的企业应用程序。
                             旗下的GIS编辑器是针对GIS专业人员进行开发的编辑器，具有使用简单且过程可视化等优点。
                         </p>
-                        <p>
-
-
-                        </p>
-                        <br />
-                        <p class="text-center" style="font-size: 25px;color:#6F3C86">公司概要</p>
-                        <div class="table" style="float:left">
-                            <div class="table-tr">
-                                <div class="table-td" style="width:30%;background:#F7F3FB">公司名称</div>
-                                <div class="table-td">ThinkGeo LLC</div>
-                            </div>
-                            <div class="table-tr">
-                                <div class="table-td"style="width:30%;background:#F7F3FB">公司地址</div>
-                                <div class="table-td"><a href="http://j.map.baidu.com/oye0C" target="_blank">查看</a></div>
-                            </div>
-                            <div class="table-tr">
-                                <div class="table-td"style="width:30%;background:#F7F3FB">电话总机</div>
-                                <div class="table-td"></div>
-                            </div>
-                            <div class="table-tr">
-                                <div class="table-td"style="width:30%;background:#F7F3FB">传真</div>
-                                <div class="table-td"></div>
-                            </div>
-                            <div class="table-tr">
-                                <div class="table-td"style="width:30%;background:#F7F3FB">主要业务</div>
-                                <div class="table-td"></div>
-                            </div>
-                        </div>
+                       
 
                     </div>
                 </div>
@@ -208,7 +186,7 @@
                     <div class="col-sm-2"><img src="../img/Career/top_thinkgeo_logo.png"></div>
                     <div class="col-sm-6">
                         <p>
-                            成都思宙信息科技 （思宙科技） 是一家集软件开发,实施,以及软件资讯为一体的软件服务提供商,为企业刻画的商业成功提供高水准的开发工具，软件开发和商业咨询服务。在不断向全球化发展过程中，思宙科技始终坚持扎实的技术能力，敏感的前沿动态观察，和崇高的道德水准， 致力于成为客户可以长久信赖的合作伙伴。
+                            成都思宙信息科技（思宙科技）是一家集软件开发,实施,以及软件资讯为一体的软件服务提供商,为企业刻画的商业成功提供高水准的开发工具，软件开发和商业咨询服务。在不断向全球化发展过程中，思宙科技始终坚持扎实的技术能力，敏感的前沿动态观察，和崇高的道德水准， 致力于成为客户可以长久信赖的合作伙伴。
                         </p>
                         <div class="footer-detail">
                             <a href="#">隐私政策</a> |
@@ -222,11 +200,7 @@
         </footer>
     </div>
     <!--end footer content-->
-    
-    
-    
-    
-       
+        
     <!--script file-->
     <script src="../js/jquery-1.10.2.js"></script>
     <script src="../js/bootstrap.min.js"></script>

@@ -6,15 +6,7 @@
     min-width: 300px;
 }
 
-.news_title {
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-#News_container {
-    padding: 1.2em 0em 0.6em 0em;
-}
-
+/*News header*/
 #news_Ch {
     font-family: Microsoft YaHei;
     font-size: 2.25em;
@@ -24,6 +16,28 @@
     font-size: 0.5em;
     font-weight: bold;
     color: rgb(144, 145, 145);
+}
+
+@media (max-width: 992px ) {
+    .news_item {
+        padding: 0em 1em;
+    }
+}
+
+@media (min-width:992px) {
+    .news_item {
+        padding: 0em 5em;
+    }
+}
+
+/*News body*/
+#News_container {
+    padding: 1.2em 0em 0.6em 0em;
+}
+
+.news_title {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .news_caption {
@@ -50,67 +64,65 @@ hr {
     margin-bottom: 1em;
 }
 
-@media (max-width: 992px ) {
-    .news_item {
-        padding: 0em 1em;
-    }
+
+/*navbar*/
+.navbar-header a {
+    line-height: 50px;
 }
 
-@media (min-width:992px) {
-    .news_item {
-        padding: 0em 5em;
-    }
-    
-	.navbar-collapse .navbar-nav.navbar-right:last-child {
-		margin-right: 8.333333333333332%;
-	}
+a #logo {
+    height: 3em;
 }
 
-@media only screen and (max-width:1230px ) {
-    .navbar-nav > li > a {
-        font-size: 14px; /*change to 0.875em*/
-		padding-left: 5px;
-		padding-right: 5px;
-	}	
-}
-
-@media only screen and (max-width: 767px) {
-    .navbar-nav > li > a {
-        font-size: 16px; /*change to 1em*/
-	}	
-
-    .navbar-collapse {
-        text-align:center;
-}
-
-    .navbar-right li{
-        display:inline-block;
-        margin:0 25px;
-        font-size:1.2em;
-    }
-
-    .navbar-left {
-        border-bottom:1px solid #19ef0b;
-    }
-}
-
-@media only screen and (min-height: 768px) {
-    .navbar-collapse .navbar-nav.navbar-left:first-child {
-        margin-left:20px;
-    }
+.navbar-collapse {
+    max-height: 100%;
 }
 
 .navbar, .navbar-default {
-	background: #fff;
-	border-width: 0 0 1px 0;
-	border-radius: 0;
-	box-shadow: 0 0 5px 0 #E3E3E3;
+    background: #fff;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    box-shadow: 0 0 5px 0 #E3E3E3;
 }
 
 div#example-navbar-collapse {
     padding-left: 0;
-    margin:5px 0;
+    margin: 5px 0;
     list-style: none;
+}
+
+.navbar-nav > li > a {
+    line-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width:1230px ) {
+    .navbar-nav > li > a {
+        font-size: 0.875em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav > li > a {
+        font-size: 1em;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-right li {
+        display: inline-block;
+        margin: 0 25px;
+        font-size: 1.2em;
+    }
+
+    .navbar-left {
+        border-bottom: 1px solid #19ef0b;
+    }
 }
 
 ul.navbar-nav.navbar-left a {
@@ -118,29 +130,27 @@ ul.navbar-nav.navbar-left a {
     color: black;
 }
 
+@media only screen and (min-height: 768px) {
+    .navbar-collapse .navbar-nav.navbar-left:first-child {
+        margin-left: 20px;
+    }
+}
+
 ul.navbar-nav.navbar-right a {
     font-size: smaller;
     color: black;
 }
 
-.navbar-nav > li > a {
-	line-height: 50px;
-    padding-top: 0;
-    padding-bottom: 0;
+@media (min-width:992px) {
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: 8.333333333333332%;
+    }
 }
 
-.navbar-nav > li {
-	/*line-height: 59px;*/
-}
-
-.navbar-collapse {
-	max-height: 100%;
-}
-
-
+/*footer*/
 .footer {
-	background: #4d4d4d;
-	height: 18em;
+    background: #4d4d4d;
+    height: 18em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -157,7 +167,7 @@ ul.navbar-nav.navbar-right a {
         text-decoration: none;
         font-family: monospace;
         font-size: 0.95em;
-}
+    }
 
     .footer #footer-content #company-logo {
         margin-top: 2em;
@@ -191,16 +201,6 @@ ul.navbar-nav.navbar-right a {
 
 @media only screen and (max-width: 375px) {
     #partnershow {
-        width:100%; 
+        width: 100%;
     }
-}
-
-
-
-.navbar-header a {
-    line-height: 50px;
-}
-
-a #logo {
-    height: 3em;
 }

@@ -140,7 +140,7 @@ ul.navbar-nav.navbar-right a {
     }
 
     .footer #footer-content #company-logo {
-        margin-top:2em;
+        margin-top: 2em;
     }
 
 @media only screen and (min-width: 1816px) {
@@ -165,13 +165,17 @@ ul.navbar-nav.navbar-right a {
     }
 
     .footer #footer-content #company-logo {
-        margin-top:0;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #partnershow {
+        width:100%; 
     }
 }
 
 
-#partnershow {
-}
 
 .navbar-header a {
     line-height: 50px;

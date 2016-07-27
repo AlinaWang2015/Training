@@ -22,7 +22,7 @@ margin-top:3em;
 .introuction {
     margin-top:2em;
 }
-@media (min-width: 375px) {
+@media (min-width: 320px) {
     .container {
         max-width: 1200px;
     }

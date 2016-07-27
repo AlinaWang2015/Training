@@ -2,6 +2,11 @@
     font-family: Microsoft YaHei;
 }
 
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 #news {
     min-width: 300px;
 }
@@ -59,19 +64,19 @@
     margin-right: 0;
 }
 
-hr {
-    margin-top: 1em;
-    margin-bottom: 1em;
+/*navbar*/
+#logo {
+    height: 3em;
 }
 
+#example-navbar-collapse {
+    padding-left: 0;
+    margin: 5px 0;
+    list-style: none;
+}
 
-/*navbar*/
 .navbar-header a {
     line-height: 50px;
-}
-
-a #logo {
-    height: 3em;
 }
 
 .navbar-collapse {
@@ -83,12 +88,6 @@ a #logo {
     border-width: 0 0 1px 0;
     border-radius: 0;
     box-shadow: 0 0 5px 0 #E3E3E3;
-}
-
-div#example-navbar-collapse {
-    padding-left: 0;
-    margin: 5px 0;
-    list-style: none;
 }
 
 .navbar-nav > li > a {
@@ -125,76 +124,62 @@ div#example-navbar-collapse {
     }
 }
 
-ul.navbar-nav.navbar-left a {
+.navbar-left a {
     font-size: larger;
     color: black;
 }
 
 @media only screen and (min-height: 768px) {
-    .navbar-collapse .navbar-nav.navbar-left:first-child {
+    .navbar-left:first-child {
         margin-left: 20px;
     }
 }
 
-ul.navbar-nav.navbar-right a {
+.navbar-right a {
     font-size: smaller;
     color: black;
 }
 
 @media (min-width:992px) {
-    .navbar-collapse .navbar-nav.navbar-right:last-child {
+    .navbar-right:last-child {
         margin-right: 8.333333333333332%;
     }
 }
 
 /*footer*/
-.footer {
-    background: #4d4d4d;
-    height: 18em;
-    text-align: center;
-    color: #FFFFFF;
+#introduction {
+    font-size: 0.95em;
+    line-height: 250%;
+    text-align: left;
+    font-family: monospace;
 }
 
-    .footer p#introduction {
-        font-size: 0.95em;
-        line-height: 250%;
-        text-align: left;
-        font-family: monospace;
-    }
-
-    .footer .footer-detail a {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: monospace;
-        font-size: 0.95em;
-    }
-
-    .footer #footer-content #company-logo {
-        margin-top: 2em;
-    }
+#company-logo {
+    margin-top: 2em;
+}
 
 @media only screen and (min-width: 1816px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 5em;
     }
 }
 
 @media only screen and (min-width: 1405px) and (max-width: 1815px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 2em;
     }
 }
 
 @media only screen and (max-width: 1404px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 5em;
     }
 
-    .footer p#introduction {
+    #introduction {
         display: none;
     }
 
-    .footer #footer-content #company-logo {
+    #company-logo {
         margin-top: 0;
     }
 }
@@ -203,4 +188,18 @@ ul.navbar-nav.navbar-right a {
     #partnershow {
         width: 100%;
     }
+}
+
+.footer {
+    background: #4d4d4d;
+    height: 18em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-detail a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.95em;
 }

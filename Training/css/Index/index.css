@@ -1,7 +1,5 @@
 ﻿body {
     font-size: 14px;
-    font-family:'Microsoft MHei';
-    word-spacing:1em;
 }
 
 .pack {
@@ -76,7 +74,6 @@ h2 {
     text-align: center;
     margin-bottom: 1.5em;
 }
-
 /*footer*/
 p {
 color:white;

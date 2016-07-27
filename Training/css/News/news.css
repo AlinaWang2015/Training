@@ -70,7 +70,7 @@ hr {
     line-height: 50px;
 }
 
-a #logo {
+#logo {
     height: 3em;
 }
 
@@ -85,7 +85,7 @@ a #logo {
     box-shadow: 0 0 5px 0 #E3E3E3;
 }
 
-div#example-navbar-collapse {
+#example-navbar-collapse {
     padding-left: 0;
     margin: 5px 0;
     list-style: none;
@@ -125,24 +125,24 @@ div#example-navbar-collapse {
     }
 }
 
-ul.navbar-nav.navbar-left a {
+.navbar-left a {
     font-size: larger;
     color: black;
 }
 
 @media only screen and (min-height: 768px) {
-    .navbar-collapse .navbar-nav.navbar-left:first-child {
+    .navbar-left:first-child {
         margin-left: 20px;
     }
 }
 
-ul.navbar-nav.navbar-right a {
+.navbar-right a {
     font-size: smaller;
     color: black;
 }
 
 @media (min-width:992px) {
-    .navbar-collapse .navbar-nav.navbar-right:last-child {
+    .navbar-right:last-child {
         margin-right: 8.333333333333332%;
     }
 }
@@ -155,46 +155,46 @@ ul.navbar-nav.navbar-right a {
     color: #FFFFFF;
 }
 
-    .footer p#introduction {
-        font-size: 0.95em;
-        line-height: 250%;
-        text-align: left;
-        font-family: monospace;
-    }
+#introduction {
+    font-size: 0.95em;
+    line-height: 250%;
+    text-align: left;
+    font-family: monospace;
+}
 
-    .footer .footer-detail a {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-family: monospace;
-        font-size: 0.95em;
-    }
+.footer-detail a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.95em;
+}
 
-    .footer #footer-content #company-logo {
-        margin-top: 2em;
-    }
+#company-logo {
+    margin-top: 2em;
+}
 
 @media only screen and (min-width: 1816px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 5em;
     }
 }
 
 @media only screen and (min-width: 1405px) and (max-width: 1815px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 2em;
     }
 }
 
 @media only screen and (max-width: 1404px) {
-    .footer #footer-content {
+    #footer-content {
         margin-top: 5em;
     }
 
-    .footer p#introduction {
+    #introduction {
         display: none;
     }
 
-    .footer #footer-content #company-logo {
+    #company-logo {
         margin-top: 0;
     }
 }

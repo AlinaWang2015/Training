@@ -1,8 +1,9 @@
 ﻿* {
-    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;   
 }
-
+body {
+    min-width:400px;
+}
 img {
     max-width: 100%;
     height: auto;  
@@ -22,7 +23,7 @@ img {
     margin: 0;
 }
     .menu img {
-    margin-bottom:10px;
+    margin-bottom:20px;
 
     }
 
@@ -65,22 +66,88 @@ li.menu-list-sub a {
     color: #696262;
 }
 
-@media only screen and (max-width: 1200px){
-    .menu-list-sub {
-    font-size: 14px;
-    padding-left: 1em;
+@media (min-width:768px) {   
+    .container {
+        margin-left:0;
+        margin-right:0;
+        padding:0;
+    }
+    .menu-list-sub {        
+        padding-left: 0;
+        margin-left:20px;
 }
-}
-@media (min-width:768px) {
-    .menu-list-sub {
-    font-size: 14px;
+    .menu {
+        float:left;        
+    }
+        .menu li {
+        font-size:10px;
+        }
+        .menu img {       
+            max-width:70%;
+    }       
+
+    .menu li a {
+            font-size: 16px;
+            color: #000;
+            line-height: 55px;           
+            margin: 0 ;
+            text-decoration: none;
+        }
+    li.menu-list-sub a {
+        font-size: 8px;        
     }
 }
-@media (max-width:992px) {
+@media (min-width:992px) {
     .img {
         background-size:50%;
-        /*height:auto;*/
     }
+    .menu li.menu-list-sub a {
+        font-size: 13px;        
+    }
+    .menu {
+        float:none;             
+    }
+    .menu img {       
+            max-width:100%;
+            height:auto;
+    }
+    .menu li a {
+            font-size: 15px;
+            color: #000;
+            line-height: 55px;           
+            margin: 0 5px;
+            text-decoration: none;
+        }
+    .container {
+        margin-left:0;
+        margin-right:0;
+        padding:0;
+    }
+}
+@media (min-width: 1200px){
+    .container { 
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .menu {
+        text-align:center;
+    }
+    .menu img {       
+            max-width:100%;
+            height:auto;
+    }
+    .menu li a {
+           font-size: 17px;
+           margin:0 10px;
+        }
+    .menu-list-sub  {
+        font-size: 13px;
+        margin-left:120px;
+        padding-right:10px;       
+    }
+        .menu li.nav-current a {
+            padding-bottom:-10px;          
+        }
 }
 .nav-right-icon {
     display: inline-block;
@@ -242,7 +309,6 @@ li.menu-list-sub a {
     }
     .footer img {
         text-align:center;
-        /*margin:25px 0;*/
     }
 .button {
     font-size:15px;

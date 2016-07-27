@@ -73,6 +73,7 @@
     <Content Include="img\Career\thinkgeo_top_logo.png" />
     <Content Include="img\Career\top_thinkgeo_logo.png" />
     <Content Include="img\Index\argonne.jpg" />
+    <Content Include="img\Index\characters.jpg" />
     <Content Include="img\Index\cloud.jpg" />
     <Content Include="img\Index\developer.jpg" />
     <Content Include="img\Index\emergency.jpg" />

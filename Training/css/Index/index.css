@@ -1,5 +1,7 @@
 ﻿body {
-    font-size: 16px;
+    font-size: 14px;
+    font-family:'Microsoft MHei';
+    word-spacing:1em;
 }
 
 .pack {
@@ -21,12 +23,17 @@ img {
     padding: 0.5em 1.2em;
 }
 
-
+    .profile .row div:hover {
+    background-color:#cbc9c3;
+    }
 /*text section*/
 .characters {
     float: left;
     margin-top: 6em;
 }
+    .characters img:hover {
+    border-bottom:2px solid #dcdcdc;
+    }
 
 .clearDiv {
     clear: both;
@@ -50,24 +57,57 @@ img {
        padding-left:4px;
       padding-right:4px;
 }
-
+.situation div a img:hover {
+transform:rotate(7deg);
+}
 /*typical customer*/
 .customer {
     /*float:left;*/
-    margin-top: 5em;
+    margin-top: 3em;
 }
-
+    .customer div {
+    padding:7px;
+    }
+        .customer div img:hover {
+        border:5px solid #efebdd;
+        }
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
-
+/*footer*/
+p {
+color:white;
+}
+.footer {
+background-color:#4d4d4d;
+padding:3em 0em;
+margin-top:4em;
+}
+    .footer img {
+    animation:rotate 1s infinite linear;
+    -webkit-animation:rotate 10s infinite linear;
+    }
+    .footer img:hover{
+    animation:rotate 1s 1 linear;
+    -webkit-animation:rotate 1s 1 linear;
+    }
+   @-webkit-keyframes rotate {
+    from {
+    -webkit-transform:rotateY(0);
+    transform:rotateY(0);
+    }
+    to {
+    -webkit-transform:rotateY(-360deg);
+    transform:rotateY(-360deg);
+    }
+        }
 /*bootstrap modify*/
 
 /* < 768px*/
-@media (max-width:768px) {
+@media (max-width: 400px) {
     .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
@@ -82,9 +122,15 @@ h2 {
     .situation {
         background-color: #fff;
     }
+    .footer p {
+    display:none;
+    }
+    .footer .col-lg-5 img {
+    display:none;
+    }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 400px) {
     .container {
         max-width: 1200px;
     }
@@ -120,7 +166,7 @@ h2 {
     }
 
     .col-lg-5 {
-        width: 41.66666666666667%;
+        width: 39.66666666666667%;
     }
 
     .col-lg-6 {

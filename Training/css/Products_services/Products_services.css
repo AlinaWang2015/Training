@@ -2,7 +2,7 @@
     font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;   
 }
 body {
-    min-width:400px;
+    min-width:300px;
 }
 img {
     max-width: 100%;
@@ -92,6 +92,22 @@ li.menu-list-sub a {
     li.menu-list-sub a {
         font-size: 8px;        
     }
+    .row {
+    margin-left:auto;
+    margin-right:auto;
+    }
+    .footer
+    {
+        height:16em;
+    }
+    .navbar-header img
+    {
+        display:none;
+    }
+    .footer img {
+        text-align:center;
+        margin:25px 0;
+    }
 }
 
 @media (min-width:992px) {
@@ -124,6 +140,16 @@ li.menu-list-sub a {
         margin-left:auto;
         margin-right:auto;
         padding:0;
+    }
+        .row
+    {
+        width:960px;
+        max-width: 970px;
+    }
+    .footer
+    {
+        height:14em;
+        width:960px;
     }
 }
 
@@ -190,6 +216,7 @@ li.menu-list-sub a {
     }
 
 .row-first {
+    margin-top:40px;
     margin-bottom:40px;
     margin-left:auto;
     margin-right:auto;
@@ -220,54 +247,12 @@ li.menu-list-sub a {
     }
     .row-second h2 {
         margin-top: 50px;
+        font-weight:bold;
     }
     .row-second p {
         margin-top: 30px;
     }
 
-@media (min-width: 768px)
-{
-    .row {
-    margin-left:auto;
-    margin-right:auto;
-    }
-    .footer
-    {
-        height:12em;
-    }
-    .navbar-header img
-    {
-        display:none;
-    }
-    .footer img {
-        text-align:center;
-        margin:25px 0;
-    }
-}
-@media (max-width: 768px)
-{     
-    .menu img
-    {
-        display:none;
-    }
-    .footer img {
-        margin:0;
-    }
-}
-
-@media (min-width: 992px)
-{
-    .row
-    {
-        width:960px;
-        max-width: 970px;
-    }
-    .footer
-    {
-        height:10em;
-        width:960px;
-    }
-}
 .gray-bachground
 {
     height: auto; 
@@ -278,6 +263,7 @@ li.menu-list-sub a {
     background-color:#f4f4f4;
 }
     .row-fourth h1 {
+        font-weight:bold;
         text-align:center;
         font-size:3em;
         margin-top:40px;
@@ -302,6 +288,7 @@ li.menu-list-sub a {
     border: 0 solid gray;
     margin-right: auto;
     margin-left: auto;
+    margin-top:40px;
 }
 #footer {
     height:auto;
@@ -310,7 +297,7 @@ li.menu-list-sub a {
 
     .footer p {
         letter-spacing:1px;
-        line-height:2;
+        line-height:300%;
         font-size:.7em;
     }
     .footer ul {

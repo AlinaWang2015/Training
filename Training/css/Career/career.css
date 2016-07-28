@@ -1,4 +1,4 @@
-﻿/*reset css*/
+/*reset css*/
 
 * {
     font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
@@ -43,7 +43,6 @@ small {
     list-style: none;
     display: inline-block;
     position: relative;
-    /*height: 4.5em;*/
 }
 
 .menu li.nav-current a {
@@ -54,7 +53,7 @@ small {
 .menu li a {
     font-size: 16px;
     color: #000;
-    line-height: 4.5em;
+    line-height: 5em;
     display: block;
     margin: 0 21px;
     text-decoration: none;
@@ -67,7 +66,7 @@ small {
 
 .menu-list-sub {
     font-size: 16px;
-    margin-left: 10em;
+    margin-left: 13em;
 }
 
 li.menu-list-sub a {
@@ -83,7 +82,7 @@ li.menu-list-sub a {
     display: inline-block;
     width: 1em;
     height: 1em;
-    background-image: url(../../img/Career/thinkgeo_right_logo.png);
+    background-image: url(../image/thinkgeo_right_logo.png);
     width: 1.5em;
     height: 1.5em;
     background-size: cover;
@@ -173,10 +172,9 @@ li.menu-list-sub a {
 }
 
 
-
 /*media */
 
-@media screen and (max-width: 1190 px) {
+@media screen and (max-width: 1246px) {
     .menu li:nth-last-child(1) {
         display: none;
     }

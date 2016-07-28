@@ -104,8 +104,7 @@ li.menu-list-sub a {
     {
         display:none;
     }
-    .footer img {
-        text-align:center;
+    .footer img {     
         margin:25px 0;
     }
 }
@@ -224,7 +223,6 @@ li.menu-list-sub a {
 .row-first-textone {
     font-size:2.4em;
     width:5em;
-    padding-left:0;
 }
 .row-first-texttwo {
     font-weight:bold;
@@ -232,7 +230,6 @@ li.menu-list-sub a {
     font-size:1em;
     width:auto;
     top:.7em;
-    padding-left:0;
 }
 .row-second {
     background-color:#f4f4f4;

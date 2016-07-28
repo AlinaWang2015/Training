@@ -2,38 +2,38 @@
 /*integral setup*/
 body {
     font-size: 14px;
-}
+     }
 .pack {
-padding-top:6em;
-}
+    padding-top:6em;
+     }
 
 img {
     width: 100%;
     height: auto;
-}
+    }
 .row {
     border-width: 0;
-}
+    }
 
 
 /*--Screen larger than 768px--*/
 /*--company profile--*/
 .profile {
-    border: 0.15em solid #dcdcdc;
-    padding: 0.5em 1.2em;
-}
+         border: 0.15em solid #dcdcdc;
+         padding: 0.5em 1.2em;
+         }
 
-    .profile .row div:hover {
-    background-color:#cbc9c3;
-    }
+.profile .row div:hover {
+                       background-color:#cbc9c3;
+                       }
 /*text section*/
 .characters {
-    float: left;
-    margin-top: 6em;
-}
-    .characters img:hover {
-    border-bottom:2px solid #dcdcdc;
-    }
+            float: left;
+           margin-top: 6em;
+          }
+.characters img:hover {
+          border-bottom:2px solid #dcdcdc;
+                      }
 
 .clearDiv {
     clear: both;
@@ -145,9 +145,6 @@ h2 {
     font-size: 1em;
     text-align: center;
     margin-bottom: 0.1em;
-}
-.situation div p:hover {
-border-bottom:2px solid #4d4d4d;
 }
 
 .footer {

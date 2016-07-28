@@ -23,6 +23,10 @@ hr {
     color: rgb(144, 145, 145);
 }
 
+.navbar-toggle {
+    margin-top:15px;
+}
+
 @media (max-width: 960px ) {
     .news_item {
         padding: 0em 1em;
@@ -145,7 +149,6 @@ div#example-navbar-collapse {
     .navbar-right li {
         display: inline-block;
         margin: 0 25px;
-        font-size: 1.2em;
     }
 
     .navbar-left {
@@ -153,7 +156,13 @@ div#example-navbar-collapse {
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 400px) {
+    .navbar-right li {
+        margin: 0 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
     .navbar, .navbar-default {
         height:80px;
     }

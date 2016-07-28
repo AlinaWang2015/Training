@@ -2,7 +2,7 @@
     font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;   
 }
 body {
-    min-width:400px;
+    min-width:300px;
 }
 img {
     max-width: 100%;
@@ -13,14 +13,12 @@ img {
     border-bottom-color:#e7e7e7;
 }
 
-.menu {
-    text-align: center;
-}
-
 .menu,
 .menu-list {
     padding: 0;
     margin: 0;
+    text-align: center;
+    height:58px;
 }
     .menu img {
     margin-bottom:20px;
@@ -68,38 +66,56 @@ li.menu-list-sub a {
 
 @media (min-width:768px) {   
     .container {
-        margin-left:0;
-        margin-right:0;
+        margin-left:auto;
+        margin-right:auto;
         padding:0;
     }
     .menu-list-sub {        
         padding-left: 0;
-        margin-left:20px;
+        margin-left:13px;
 }
     .menu {
-        float:left;        
+        float:left;  
+        margin-left:auto;
+        margin-right:auto;     
     }
         .menu li {
         font-size:10px;
         }
-        .menu img {       
-            max-width:70%;
-    }       
-
     .menu li a {
             font-size: 16px;
             color: #000;
             line-height: 55px;           
-            margin: 0 ;
+            margin: 0 1px;
             text-decoration: none;
         }
     li.menu-list-sub a {
         font-size: 8px;        
     }
+    .row {
+    margin-left:auto;
+    margin-right:auto;
+    }
+    .footer
+    {
+        height:16em;
+    }
+    .navbar-header img
+    {
+        display:none;
+    }
+    .footer img {
+        text-align:center;
+        margin:25px 0;
+    }
 }
+
 @media (min-width:992px) {
     .img {
         background-size:50%;
+    }
+     .menu-list-sub {               
+        margin-left:35px;
     }
     .menu li.menu-list-sub a {
         font-size: 13px;        
@@ -115,15 +131,28 @@ li.menu-list-sub a {
             font-size: 15px;
             color: #000;
             line-height: 55px;           
-            margin: 0 5px;
+            margin-left:15px;
+            margin-right:15px;
             text-decoration: none;
         }
     .container {
-        margin-left:0;
-        margin-right:0;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
         padding:0;
     }
+        .row
+    {
+        width:960px;
+        max-width: 970px;
+    }
+    .footer
+    {
+        height:14em;
+        width:960px;
+    }
 }
+
 @media (min-width: 1200px){
     .container { 
         margin-left:auto;
@@ -142,7 +171,7 @@ li.menu-list-sub a {
         }
     .menu-list-sub  {
         font-size: 13px;
-        margin-left:120px;
+        margin-left:80px;
         padding-right:10px;       
     }
         .menu li.nav-current a {
@@ -187,6 +216,7 @@ li.menu-list-sub a {
     }
 
 .row-first {
+    margin-top:40px;
     margin-bottom:40px;
     margin-left:auto;
     margin-right:auto;
@@ -217,48 +247,12 @@ li.menu-list-sub a {
     }
     .row-second h2 {
         margin-top: 50px;
+        font-weight:bold;
     }
     .row-second p {
         margin-top: 30px;
     }
-@media (min-width: 992px)
-{
-    .row
-    {
-        width:960px;
-        max-width: 970px;
-    }
-    .footer
-    {
-        height:15em;
-        width:960px;
-    }
-}
-@media (min-width: 768px)
-{   
-    .footer
-    {
-        height:15em;
-    }
-    .navbar-header img
-    {
-        display:none;
-    }
-    .footer img {
-        text-align:center;
-        margin:25px 0;
-    }
-}
-@media (max-width: 768px)
-{     
-    .menu img
-    {
-        display:none;
-    }
-    .footer img {
-        margin:0;
-    }
-}
+
 .gray-bachground
 {
     height: auto; 
@@ -269,6 +263,7 @@ li.menu-list-sub a {
     background-color:#f4f4f4;
 }
     .row-fourth h1 {
+        font-weight:bold;
         text-align:center;
         font-size:3em;
         margin-top:40px;
@@ -280,9 +275,12 @@ li.menu-list-sub a {
         margin:10px 0;
         padding-left:0;
     }
-.breadcrumb{
-    background-color:#4c4c4c;
+.breadcrumb{        
+    background-color:#4c4c4c;    
 }
+    .breadcrumb a {
+        color:white;
+    }
 .footer {
     padding-top:30px;
     background-color:#4c4c4c;
@@ -290,6 +288,7 @@ li.menu-list-sub a {
     border: 0 solid gray;
     margin-right: auto;
     margin-left: auto;
+    margin-top:40px;
 }
 #footer {
     height:auto;
@@ -298,7 +297,7 @@ li.menu-list-sub a {
 
     .footer p {
         letter-spacing:1px;
-        line-height:2;
+        line-height:300%;
         font-size:.7em;
     }
     .footer ul {
@@ -320,3 +319,4 @@ li.menu-list-sub a {
     margin:50px 0 35px 20px;
     padding:9px 15px;
 }
+

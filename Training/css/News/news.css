@@ -23,6 +23,10 @@ hr {
     color: rgb(144, 145, 145);
 }
 
+.navbar-toggle {
+    margin-top:15px;
+}
+
 @media (max-width: 960px ) {
     .news_item {
         padding: 0em 1em;
@@ -78,7 +82,6 @@ hr {
 
 .btn {
     padding: 0;
-    font-weight: bold;
 }
 
 .row {
@@ -93,7 +96,7 @@ hr {
 
 
 .navbar-header a {
-    line-height: 50px;
+    line-height: 63px;
 }
 
 .navbar-collapse {
@@ -105,11 +108,8 @@ hr {
     border-width: 0 0 1px 0;
     border-radius: 0;
     box-shadow: 0 0 5px 0 #E3E3E3;
-    padding:5px 0;
-}
-
-.currentnavbar {
-    border-bottom: 1px solid #19ef0b;
+    /*height:80px;*/
+    /*padding:5px 0;*/
 }
 
 div#example-navbar-collapse {
@@ -119,14 +119,19 @@ div#example-navbar-collapse {
 }
 
 .navbar-nav > li > a {
-    line-height: 59px;
+    line-height: 75px;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-@media only screen and (max-width:1230px ) {
-    .navbar-nav > li > a {
-        font-size: 0.875em;
+@media only screen and (max-width:905px ) {
+    .navbar-left > li > a {
+        font-size: 0.95em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .navbar-right > li > a {
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -144,10 +149,25 @@ div#example-navbar-collapse {
     .navbar-right li {
         display: inline-block;
         margin: 0 25px;
-        font-size: 1.2em;
     }
 
     .navbar-left {
+        border-bottom: 1px solid #19ef0b;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-right li {
+        margin: 0 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar, .navbar-default {
+        height:80px;
+    }
+
+    .currentnavbar {
         border-bottom: 1px solid #19ef0b;
     }
 }

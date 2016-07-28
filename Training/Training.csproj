@@ -87,6 +87,7 @@
     <Content Include="img\Index\head6.jpg" />
     <Content Include="css\News\news.css" />
     <Content Include="img\Index\honey.jpg" />
+    <Content Include="img\Index\icon_english.png" />
     <Content Include="img\Index\Index_meitu_log2.jpg" />
     <Content Include="img\Index\job.jpg" />
     <Content Include="img\Index\log1.jpg" />

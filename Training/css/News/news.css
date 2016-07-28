@@ -1,4 +1,8 @@
-﻿a {
+﻿body {
+    min-width: 320px;
+}
+
+a {
     font-family: Microsoft YaHei;
 }
 
@@ -251,6 +255,7 @@ div#example-navbar-collapse {
 
 @media only screen and (max-width: 1150px) {
     #company-logo, #partnershow {
+        float:none;
         width: 0;
         height: 0;
         background-image: url();

@@ -98,6 +98,7 @@
     <Content Include="img\Index\professional.jpg" />
     <Content Include="img\Index\research.jpg" />
     <Content Include="img\Index\thinkgeo.jpg" />
+    <Content Include="img\News\thinkgeo_top_logo.png" />
     <Content Include="img\Products_services\image1.PNG" />
     <Content Include="img\Products_services\image2.PNG" />
     <Content Include="img\Products_services\image3.png" />
@@ -140,7 +141,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="fonts\" />
-    <Folder Include="img\News\" />
     <Folder Include="js\Career\" />
     <Folder Include="js\Products_services\" />
   </ItemGroup>

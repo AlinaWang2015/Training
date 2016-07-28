@@ -6,26 +6,42 @@
     color:#777;
 }
 
-.content-container{
-    padding-left:35px;
-}
 
 /*Adapt to different screen like different iphone */
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+@media screen and (max-width: 1246px) {
+    .menu li:nth-last-child(1) {
+        display: none;
+    }
 }
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
+
+@media screen and (max-width: 992px) {
+    .footer p {
+        line-height: normal;
+        letter-spacing: 0;
+    }
 }
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+
+@media screen and (max-width: 768px) {
+    .menu li:nth-last-child(1) {
+        display: block;
+    }
+    .menu li {
+        display: block;
+    }
+    .menu li a {
+        line-height: 2.8em;
+    }
+    footer {
+        display: none;
+    }
+    .menu-list-sub {
+        padding: 0;
+    }
+    .menu-list-sub:nth-last-child(1) {
+        margin: 0;
+    }
 }
+
 
 /* a style*/
 a:hover {
@@ -132,23 +148,42 @@ li.menu-list-sub a {
     margin-bottom:50px;
 }
 .content-choice a{
-	color: #000;
-	border: 1px solid #FF0000;
-	padding: 1px;
-	text-decoration: none;
+	background:#F0F0F0;
+	text-decoration: solid;
+}
+
+/* the sign*/
+#arrow1, #arrow2 {
+    border: 3px solid #5E37AA;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    height: 8px;
+    -moz-transform-origin: center center;
+    -moz-transform: rotate(45deg);
+    -moz-transition: all .5s ease-in .1s;
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: all .5s ease-in .1s;
+    -o-transform-origin: center center;
+    -o-transform: rotate(45deg);
+    -o-transition: all .5s ease-in .1s;
+    -ms-transform-origin: center center;
+    -ms-transform: rotate(45deg);
+    -ms-transition: all .5s ease-in .1s;
+    transform-origin: center center;
+    transform: rotate(-45deg);
+    transition: all .5s ease-in .1s;
+    width: 8px;
 }
 /*cheng du background */
-.chengdu {
+.background-img {
     padding-top: 24px;
     padding-bottom:54px;
     padding-left:100px;
 }
 
 /*american background */
-.american {
-    padding-top: 10px;
-    padding-left:200px;
-}
+
 
 .page-content{
     margin-left:55px;
@@ -252,29 +287,7 @@ li.menu-list-sub a {
 
 
 
-/* the sign*/
-#arrow1, #arrow2 {
-    border: 3px solid #5E37AA;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    height: 8px;
-    -moz-transform-origin: center center;
-    -moz-transform: rotate(45deg);
-    -moz-transition: all .5s ease-in .1s;
-    -webkit-transform-origin: center center;
-    -webkit-transform: rotate(45deg);
-    -webkit-transition: all .5s ease-in .1s;
-    -o-transform-origin: center center;
-    -o-transform: rotate(45deg);
-    -o-transition: all .5s ease-in .1s;
-    -ms-transform-origin: center center;
-    -ms-transform: rotate(45deg);
-    -ms-transition: all .5s ease-in .1s;
-    transform-origin: center center;
-    transform: rotate(-45deg);
-    transition: all .5s ease-in .1s;
-    width: 8px;
-}
+
 
 
 
@@ -288,14 +301,16 @@ li.menu-list-sub a {
 
 
 #main-nav {
-            margin-left: 1px;
+            margin-top: 10px;
         }
 
             #main-nav.nav-tabs.nav-stacked > li > a {
-                padding: 10px 8px;
+                margin-left: 20px ;
+                padding-right:40px;
                 font-size: 12px;
                 font-weight: 600;
                 color: #4A515B;
+                width:150px;
                 background: #E9E9E9;
                 background: -moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%);
                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9));
@@ -308,11 +323,6 @@ li.menu-list-sub a {
                 border: 1px solid #D5D5D5;
                 border-radius: 4px;
             }
-
-                #main-nav.nav-tabs.nav-stacked > li > a > span {
-                    color: #4A515B;
-                }
-
                 #main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover {
                     color: #FFF;
                     background: #3C4049;
@@ -327,10 +337,3 @@ li.menu-list-sub a {
                     border-color: #2B2E33;
                 }
 
-                    #main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover > span {
-                        color: #FFF;
-                    }
-
-            #main-nav.nav-tabs.nav-stacked > li {
-                margin-bottom: 4px;
-            }

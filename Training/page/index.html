@@ -9,17 +9,82 @@
     <link href="../css/Index/index.css" rel="stylesheet" />
 
     <style>
+        /*override color of nav */
+
+
+        /*>768px the navbar_left li padding*/
+        .navbar-left li {
+            padding: 0 0.8em;
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            font-size:larger;
+            color: #000;
+        }
+
+        .navbar-default .navbar-right > li > a {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /*<768px, the small nav button is appear, so the navbar_right should vertical*/
+        @media(max-width:768px) {
+
+            /*# nav*/
+            .navbar-nav > li > a, .navbar-nav li {
+                margin: 0;
+                padding: 0;
+            }
+            /*arrangement*/
+            .navbar-collapse {
+                text-align: center;
+            }
+            /*## font color,and the li hover*/
+
+
+            .navbar-default .navbar-nav > li > a {
+                color: #777;
+            }
+
+            .navbar-default .navbar-nav > li:hover {
+                background-color: #e3e3e3;
+            }
+
+            .navbar-right li {
+                display: block;
+            }
+
+            .navbar-right ul {
+                text-align: center;
+            }
+
+            .navbar-left {
+                border-bottom: 1px solid #2764e2;
+            }
+
+            .vertical_bar {
+                display: none;
+            }
+
+            /*## the nav container*/
+            .container {
+                padding: 0;
+            }
+
+            #example-navbar-collapse, .navbar-left, .navbar-right {
+                margin: 0;
+                padding: 0;
+            }
+        }
     </style>
 
 </head>
 <body>
 
     <div id="head_back_div"></div>
-    <div class="">
+    <div class="container">
         <nav class="navbar navbar-default ">
             <div>
-                <div class="col-lg-2"></div>
-
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target="#example-navbar-collapse">
@@ -48,13 +113,14 @@
                             <a href="career.html">工作机会</a>
                         </li>
                     </ul>
+
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#">开发者中心</a>
                         </li>
                         <li>
                             <a href="#">
-                                <span class="vertical_bar">|</span><img id="icon_english" src="../img/Career/thinkgeo_right_logo.png" />
+                                <span class="vertical_bar">|</span><img id="icon_english" src="../img/Index/icon_english.png" />
                                 English
                             </a>
                         </li>

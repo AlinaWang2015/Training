@@ -1,6 +1,7 @@
 ﻿body {
-    font-size: 14px;
+    /*12px,because all browser default size is 16px;*/
     font-family: Microsoft YaHei;
+    font-size:14px;
 }
 
 .pack img {
@@ -12,15 +13,8 @@
     border-width: 0;
 }
 
-/*font*/
-.navbar-left a {
-    color: black !important;
-    font-size:larger;
-}
 
 /*last version*/
-
-
 @media (min-width: 768px) {
     .navbar-collapse .navbar-nav.navbar-left:first-child {
         margin-left: 0;
@@ -29,6 +23,7 @@
     .navbar-collapse .navbar-nav li {
         float: left;
     }
+   
 }
 
 /*override some css*/
@@ -39,23 +34,6 @@
 .navbar-right > li > a {
     padding: 0px;
 }
-
-@media (min-width: 768px) {
-    .navbar-right {
-        padding-right: 20em;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar-right {
-        padding-right: 2em;
-    }
-}
-
-
-#logo {
-}
-
 
 nav_container
 /*some fixed items*/
@@ -76,7 +54,7 @@ nav_container
     padding-left: 0;
     margin: 10px 0;
     list-style: none;
-}
+   }
 
 .navbar-header a {
     line-height: 50px;
@@ -90,7 +68,7 @@ nav_container
     background: #fff;
     border-width: 0 0 1px 0;
     border-radius: 0;
-    box-shadow: 0 0 5px 0 #E3E3E3;
+   /* box-shadow: 0 0 5px 0 #E3E3E3;*/
 }
 
 .navbar-nav > li > a {
@@ -99,60 +77,11 @@ nav_container
     padding-bottom: 0;
 }
 
-@media only screen and (max-width:1230px ) {
-    .navbar-nav > li > a {
-        font-size: 0.875em;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .navbar-nav > li > a {
-        font-size: 1em;
-    }
-
-    .navbar-collapse {
-        text-align: center;
-    }
-
-    .navbar-right li {
-        display: inline-block;
-        margin: 0 25px;
-        font-size: 1.2em;
-    }
-
-    .navbar-left {
-        border-bottom: 1px solid #19ef0b;
-    }
-}
-
-.navbar-left a {
-    font-size: larger;
-    color: black;
-}
-
-@media only screen and (min-height: 768px) {
-    .navbar-left:first-child {
-        margin-left: 20px;
-    }
-}
-
-.navbar-right a {
-    font-size: smaller;
-    color: black;
-}
-
-@media (min-width:992px) {
-    .navbar-right:last-child {
-        margin-right: 8.333333333333332%;
-    }
-}
-
-
 /*carousel*/
 #slides {
     position: relative;
+    overflow: hidden;
+    width: 100%;
 }
 
     #slides div {
@@ -164,13 +93,11 @@ nav_container
     #slides img {
         position: relative;
         display: none;
-        max-width: 100%;
     }
 
         /*current img style*/
         #slides img.active {
             display: block;
-            width: 1680px;
         }
 
 

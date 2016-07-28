@@ -115,7 +115,6 @@
     <Content Include="js\News\news.js" />
     <Content Include="js\News\news.min.js" />
     <Content Include="js\News\object.js" />
-    <Content Include="js\Products_services\Product_services.js" />
     <Content Include="page\about-us.html" />
     <Content Include="page\career.html" />
     <Content Include="page\footer.html" />
@@ -140,6 +139,7 @@
     <Folder Include="fonts\" />
     <Folder Include="img\News\" />
     <Folder Include="js\Career\" />
+    <Folder Include="js\Products_services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

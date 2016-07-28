@@ -195,54 +195,75 @@ div#example-navbar-collapse {
 }
 
 /*footer*/
-#introduction {
-        font-size: 0.95em;
-        line-height: 250%;
-        text-align: left;
-        font-family: monospace;
-    }
-
-#company-logo {
-        margin-top: 2em;
-    }
-
-@media only screen and (min-width: 1816px) {
-    #footer-content {
-        margin-top: 5em;
-    }
-}
-
-@media only screen and (min-width: 1405px) and (max-width: 1815px) {
-    #footer-content {
-        margin-top: 2em;
-    }
-}
-
-@media only screen and (max-width: 1404px) {
-    #footer-content {
-        margin-top: 5em;
-    }
-
-    #introduction {
-        display: none;
-    }
-
-    #company-logo {
-        margin-top: 0;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    #partnershow {
-        width: 100%;
-    }
-}
-
-.footer {
+#footer-content {
+    text-align: center;
+    margin: 0 auto;
     background: #4d4d4d;
     height: 18em;
-    text-align: center;
     color: #FFFFFF;
+}
+
+#footer-container {
+    /*position: relative;
+    left: 200px;*/
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+
+#company-logo {
+    width: 121px;
+    height: 24px;
+    margin-top: 5em;
+    float: left;
+    background-image: url(../../img/Career/top_thinkgeo_logo.png);
+    background-repeat: no-repeat;
+}
+
+#company-introduction {
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+#partnershow {
+    width: 288px;
+    height: 68px;
+    float: left;
+    margin-top: 4em;
+    background-image: url(../../img/Career/thinkgeo_bottom_logo.png);
+    background-repeat: no-repeat;
+}
+
+#introduction {
+    font-size: 0.95em;
+    line-height: 250%;
+    text-align: left;
+    font-family: monospace;
+}
+
+@media only screen and (min-width: 1150px) {
+    #company-introduction {
+        max-width: 580px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #company-logo, #partnershow {
+        width: 0;
+        height: 0;
+        background-image: url();
+    }
+
+    #footer-container {
+        width: auto;
+        padding: 0;
+    }
+
+    #company-introduction {
+        padding: 2em;
+    }
 }
 
 .footer-detail a {
@@ -250,4 +271,29 @@ div#example-navbar-collapse {
     text-decoration: none;
     font-family: monospace;
     font-size: 0.95em;
+}
+
+.footer-detail {
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    #footer-content {
+        height: 2em;
+        text-align: center;
+    }
+
+    #introduction {
+        display: none;
+    }
+
+    .footer-detail {
+        margin: 0;
+    }
+
+    #company-introduction {
+        width: auto;
+        float: none;
+        padding: 0;
+    }
 }

@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\About-us\about-us.css" />
+    <Content Include="css\Index\myindex.css" />
     <Content Include="css\Public\head.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -75,6 +76,7 @@
     <Content Include="img\Index\argonne.jpg" />
     <Content Include="img\Index\characters.jpg" />
     <Content Include="img\Index\cloud.jpg" />
+    <Content Include="img\Index\customer.png" />
     <Content Include="img\Index\developer.jpg" />
     <Content Include="img\Index\emergency.jpg" />
     <Content Include="img\Index\experian.jpg" />

@@ -89,17 +89,24 @@ width: 100%;
 
 /*carousel imgs*/
 
-#slides img {
-    position: relative;
-    display: none;
-}
-
-    /*current img style*/
+@media(max-width:1200px){
+      /*current img style*/
     #slides img.active {
+        display: block;
+    }
+}
+@media(min-width:1119px){
+     #slides img.active {
         display: block;
         width:100%;
     }
+}
 
+#slides img {
+    position: relative;
+    display: none;
+    max-height:495px;
+}
 
 /*carousel pages*/
 #pages {

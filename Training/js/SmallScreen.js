@@ -1,4 +1,5 @@
-﻿var width = document.body.clientWidth;
+﻿
+var width = document.body.clientWidth;
 
 if (width < 768)
 {

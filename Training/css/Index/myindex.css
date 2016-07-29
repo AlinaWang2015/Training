@@ -14,10 +14,10 @@
         }
 
         /*<768px, the small nav button is appear, so the navbar_right should vertical*/
-        @media(max-width:768px) {
+        @media (max-width:768px) {
 
             /*# nav*/
-            .navbar-nav > li > a, .navbar-nav li {
+         .navbar-nav > li > a, .navbar-nav li {
                 margin: 0;
                 padding: 0;
             }

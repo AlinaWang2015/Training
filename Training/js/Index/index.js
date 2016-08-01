@@ -53,8 +53,8 @@ window.onresize = setText;
         $("#append7").append('<p><strong><a href="#">研发环境</a></strong><br />');
         hasAddText = 1;
     } else {
-        console.debug("aa");
-        window.location.href = "/page/index.html";
+		var currentUrl = window.location.pathname;
+        window.location.href = currentUrl;
         hasAddText = 0;
     }
 

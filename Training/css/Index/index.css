@@ -271,6 +271,7 @@ font-weight: bold;
 .characters img {
     display: none; /*Remove the picture with text*/
 }
+
 /*--company profile--*/
 .profile {
     border: 0.05em solid #dcdcdc;
